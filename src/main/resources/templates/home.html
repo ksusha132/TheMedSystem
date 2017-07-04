@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" layout:decorator="layout">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/login.css}" />   
+</head>
+
+<body>
+<p layout:fragment="header">Home</p>
+<section layout:fragment="content">
+			<div role="alert" th:if="${param.error}"
+                 th:class="'alert alert-danger'" th:text="#{error.badCredentials}">
+            </div>
+            <div role="alert" th:if="${param.message}"
+                 th:class="'alert alert-success'" th:utext="${statusMessage}">
+            </div>
+</section>
+</body>
+</html>

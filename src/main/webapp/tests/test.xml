@@ -1,0 +1,2223 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tests>
+	<lesson level="beginner" section="grammar" id="1">
+		<question id="1">
+			<ask>Which sentence is NOT a routine?</ask>
+			<choice id="1" correct="true">I am visiting my grandmother this weekend.</choice>
+			<choice id="2" correct="false">I visit my grandmother every Saturday morning.</choice>
+			<choice id="3" correct="false">I wake up at 5am.</choice>
+			<choice id="4" correct="false">I eat breakfast at 5:30am.</choice>
+		</question>
+		<question id="2">
+			<ask>He _________ his mom every week.</ask>
+			<choice id="1" correct="false">is calling</choice>
+			<choice id="2" correct="true">calls</choice>
+			<choice id="3" correct="false">call</choice>
+			<choice id="4" correct="false">is call</choice>
+		</question>
+		<question id="3">
+			<ask>I __________ to music every night.</ask>
+			<choice id="1" correct="false">am listen</choice>
+			<choice id="2" correct="true">listen</choice>
+			<choice id="3" correct="false">am listening</choice>
+			<choice id="4" correct="false">listening</choice>
+		</question>
+		<question id="4">
+			<ask>My dad always _________ dinner after work.</ask>
+			<choice id="1" correct="false">eat</choice>
+			<choice id="2" correct="true">eats</choice>
+			<choice id="3" correct="false">is eating</choice>
+			<choice id="4" correct="false">is eats</choice>
+		</question>
+		<question id="5">
+			<ask>My alarm clock __________ at 7am.</ask>
+			<choice id="1" correct="false">go off</choice>
+			<choice id="2" correct="true">goes off</choice>
+			<choice id="3" correct="false">is going off</choice>
+			<choice id="4" correct="false">is go off</choice>
+		</question>
+		<question id="6">
+			<ask>I _________ my history class after lunch.</ask>
+			<choice id="1" correct="false">haves</choice>
+			<choice id="2" correct="true">have</choice>
+			<choice id="3" correct="false">am having</choice>
+			<choice id="4" correct="false">am have</choice>
+		</question>
+		<question id="7">
+			<ask>Which sentence is NOT a routine?</ask>
+			<choice id="1" correct="false">My parents drink coffee in the morning.</choice>
+			<choice id="2" correct="true">Her mom likes cats.</choice>
+			<choice id="3" correct="false">His boss arrives five minutes late for work every morning.</choice>
+			<choice id="4" correct="false">I take the bus to school.</choice>
+		</question>
+		<question id="8">
+			<ask>She always _______ hard for her exams.</ask>
+			<choice id="1" correct="false">study</choice>
+			<choice id="2" correct="true">studies</choice>
+			<choice id="3" correct="false">is study</choice>
+			<choice id="4" correct="false">is studying</choice>
+		</question>
+		<question id="9">
+			<ask>I _______ my teeth after I have a shower.</ask>
+			<choice id="1" correct="false">brushes</choice>
+			<choice id="2" correct="true">brush</choice>
+			<choice id="3" correct="false">am brushing</choice>
+			<choice id="4" correct="false">am brush</choice>
+		</question>
+		<question id="10">
+			<ask>Veronica __________ the piano after school.</ask>
+			<choice id="1" correct="false">practice</choice>
+			<choice id="2" correct="true">practices</choice>
+			<choice id="3" correct="false">is practicing</choice>
+			<choice id="4" correct="false">is practice</choice>
+		</question>
+	</lesson>
+	<lesson level="beginner" section="grammar" id="2">
+		<question id="1">
+			<ask>Yesterday my best friend broke his leg. He _______ off the bike.</ask>
+			<choice id="1" correct="true">fell</choice>
+			<choice id="2" correct="false">fall</choice>
+			<choice id="3" correct="false">falled</choice>
+		</question>
+		<question id="2">
+			<ask>You know, Beethoven _____ a great composer.</ask>
+			<choice id="1" correct="true">was</choice>
+			<choice id="2" correct="false">were</choice>
+			<choice id="3" correct="false">weren't</choice>
+		</question>
+		<question id="3">
+			<ask>We ______an interesting documentary film about wild animals last week.</ask>
+			<choice id="1" correct="true">watched</choice>
+			<choice id="2" correct="false">watch</choice>
+			<choice id="3" correct="false">were</choice>
+		</question>
+		<question id="4">
+			<ask>Last year they ______ a lot of toys for kids.</ask>
+			<choice id="1" correct="true">bought</choice>
+			<choice id="2" correct="false">buy</choice>
+			<choice id="3" correct="false">buyed</choice>
+		</question>
+		<question id="5">
+			<ask>Ann _____ Tom in Great Britain last month.</ask>
+			<choice id="1" correct="true">visited</choice>
+			<choice id="2" correct="false">visit</choice>
+			<choice id="3" correct="false">was visited</choice>
+		</question>
+		<question id="6">
+			<ask>I with my class-mates _____ a new school uniform last year.</ask>
+			<choice id="1" correct="true">wore</choice>
+			<choice id="2" correct="false">wear</choice>
+			<choice id="3" correct="false">wored</choice>
+		</question>
+		<question id="7">
+			<ask>When ___ you go to your friends in St.Petersburg last time?</ask>
+			<choice id="1" correct="true">did</choice>
+			<choice id="2" correct="false">do</choice>
+			<choice id="3" correct="false">was</choice>
+		</question>
+		<question id="8">
+			<ask>_____ her mother go out yesterday?</ask>
+			<choice id="1" correct="true">Did</choice>
+			<choice id="2" correct="false">Was</choice>
+			<choice id="3" correct="false">Were</choice>
+		</question>
+	</lesson>
+	<lesson level="beginner" section="grammar" id="3">
+		<question id="1">
+			<ask>______ you finish any educational establishment next year? – No, I … only finish school in 2 years.</ask>
+			<choice id="1" correct="true">will/will</choice>
+			<choice id="2" correct="false">are/ won’t</choice>
+			<choice id="3" correct="false">will not/ do</choice>
+			<choice id="4" correct="false">will/ am</choice>
+		</question>
+		<question id="2">
+			<ask>My cousins ______ on us in two-three months. Let’s buy some gifts for them.</ask>
+			<choice id="1" correct="true">will call</choice>
+			<choice id="2" correct="false">will be calling</choice>
+			<choice id="3" correct="false">will have called</choice>
+			<choice id="4" correct="false">call</choice>
+		</question>
+		<question id="3">
+			<ask>I _____ give you to hold my puppy in your arms (держать на руках) tomorrow because it’s afraid of other people, especially strangers.</ask>
+			<choice id="1" correct="true">won’t</choice>
+			<choice id="2" correct="false">not</choice>
+			<choice id="3" correct="false">will</choice>
+		</question>
+		<question id="4">
+			<ask>I hope he _____ all the quarrels we have had for the last five years.</ask>
+			<choice id="1" correct="true">will forget</choice>
+			<choice id="2" correct="false">is forgetting</choice>
+			<choice id="3" correct="false">won’t forget</choice>
+			<choice id="4" correct="false">will forgotten</choice>
+		</question>
+		<question id="5">
+			<ask>Do you have a credit card? If no, we can give it to you for free – No, I ______ cash.</ask>
+			<choice id="1" correct="true">will pay</choice>
+			<choice id="2" correct="false">will be paying</choice>
+			<choice id="3" correct="false">will have paid</choice>
+			<choice id="4" correct="false">am paying</choice>
+		</question>
+		<question id="6">
+			<ask>We expect he _____ soon, otherwise we’ll be frozen. Then I’m sure we ______ cold.</ask>
+			<choice id="1" correct="true">will come/ will catch</choice>
+			<choice id="2" correct="false">would be/would catch</choice>
+			<choice id="3" correct="false">will come/would</choice>
+			<choice id="4" correct="false">comes/ catch</choice>
+		</question>
+		<question id="7">
+			<ask>In ten days he _____ healthy as usual if he sticks to the doctor’s rules and recommendations.</ask>
+			<choice id="1" correct="true">will be</choice>
+			<choice id="2" correct="false">won’t</choice>
+			<choice id="3" correct="false">will</choice>
+			<choice id="4" correct="false">will have</choice>
+		</question>
+		<question id="8">
+			<ask>In several days she ______ a diploma and afterwards she ________ job-hunting.</ask>
+			<choice id="1" correct="true">will get/will start</choice>
+			<choice id="2" correct="false">would get/would start</choice>
+			<choice id="3" correct="false">will have got/ will start</choice>
+			<choice id="4" correct="false">will be getting/starts</choice>
+		</question>
+	</lesson>
+	<lesson level="pre-intermediate" section="grammar" id="4">
+		<question id="1">
+			<ask>"What do you like about Ted?"</ask>
+			<choice id="1" correct="true">He's always helping others.</choice>
+			<choice id="2" correct="false">He's always help others.</choice>
+			<choice id="3" correct="false">He always helping others.</choice>
+			<choice id="4" correct="false">He always helpsing others.</choice>
+		</question>
+		<question id="2">
+			<ask>"Where is Tom? Doesn't he usually come out for coffee on Fridays?"</ask>
+			<choice id="1" correct="true">He's studying tonight.</choice>
+			<choice id="2" correct="false">He studying tonight.</choice>
+			<choice id="3" correct="false">He studies tonight.</choice>
+			<choice id="4" correct="false">He's studied tonight.</choice>
+		</question>
+		<question id="3">
+			<ask>"What are you doing this weekend?"</ask>
+			<choice id="1" correct="true">I'm visiting some friends out of town.</choice>
+			<choice id="2" correct="false">I visiting some friends out of town.</choice>
+			<choice id="3" correct="false">I'm visit some friends out of town.</choice>
+			<choice id="4" correct="false">I'm visited some friends out of town.</choice>
+		</question>
+		<question id="4">
+			<ask>He's talking to someone by the bar.</ask>
+			<choice id="1" correct="true">He's talking to someone by the bar.</choice>
+			<choice id="2" correct="false">He talking to someone by the bar.</choice>
+			<choice id="3" correct="false">He's talk to someone by the bar.</choice>
+			<choice id="4" correct="false">He talks to someone by the bar.</choice>
+		</question>
+		<question id="5">
+			<ask>"Have you read any good books lately?"</ask>
+			<choice id="1" correct="true">Yes. I'm reading The Sirens of Titan right now.</choice>
+			<choice id="2" correct="false">Yes. I'm read The Sirens of Titan right now.</choice>
+			<choice id="3" correct="false">Yes. I reading The Sirens of Titan right now.</choice>
+			<choice id="4" correct="false">Yes. I'm readings The Sirens of Titan right now.</choice>
+		</question>
+		<question id="6">
+			<ask>"She's always complaining about stuff."
+				What kind of usage is this?</ask>
+			<choice id="1" correct="true">a regular behavior</choice>
+			<choice id="2" correct="false">an action happening right now</choice>
+			<choice id="3" correct="false">a pre-arranged action in the future</choice>
+		</question>
+		<question id="7">
+			<ask>"They are playing board games downstairs."
+				What kind of usage is this?</ask>
+			<choice id="1" correct="true">an action happening right now</choice>
+			<choice id="2" correct="false">a regular behavior</choice>
+			<choice id="3" correct="false">a pre-arranged action in the future</choice>
+		</question>
+		<question id="8">
+			<ask>"I'm playing a lot of video games these days."
+				What kind of usage is this?</ask>
+			<choice id="1" correct="true">an action happening during the present period of this person's life</choice>
+			<choice id="2" correct="false">pre-arranged future plan</choice>
+			<choice id="3" correct="false">an action happening right now in this person's life</choice>
+		</question>
+		<question id="9">
+			<ask>"We are going to my aunt's house tomorrow."
+				What kind of usage is this?</ask>
+			<choice id="1" correct="true">a pre-arranged future plan</choice>
+			<choice id="2" correct="false">an action happening right now</choice>
+			<choice id="3" correct="false">a regular behavior</choice>
+		</question>
+		<question id="10">
+			<ask>"He usually stays home on Thursday nights, but tonight, he's going out with friends."
+				What kind of usage is this?</ask>
+			<choice id="1" correct="true">a temporary action/behavior</choice>
+			<choice id="2" correct="false">an action happening right now</choice>
+			<choice id="3" correct="false">a pre-arranged future plan</choice>
+		</question>
+	</lesson>
+	<lesson level="pre-intermediate" section="grammar" id="5">
+		<question id="1">
+			<ask>I was ______ last night.</ask>
+			<choice id="1" correct="true">walking</choice>
+			<choice id="2" correct="false">walk</choice>
+			<choice id="3" correct="false">walked</choice>
+			<choice id="4" correct="false">walker</choice>
+		</question>
+		<question id="2">
+			<ask>We ________ _________ this past Saturday.</ask>
+			<choice id="1" correct="true">were singing</choice>
+			<choice id="2" correct="false">was singing</choice>
+			<choice id="3" correct="false">were singer</choice>
+			<choice id="4" correct="false">was songing</choice>
+		</question>
+		<question id="3">
+			<ask>Last night, my friends ______ ______ for four hours!</ask>
+			<choice id="1" correct="true">were dancing</choice>
+			<choice id="2" correct="false">was dance</choice>
+			<choice id="3" correct="false">were dancer</choice>
+			<choice id="4" correct="false">was dancing</choice>
+		</question>
+		<question id="4">
+			<ask>While I ______ _______, my friend Chris was running.</ask>
+			<choice id="1" correct="true">was walking</choice>
+			<choice id="2" correct="false">were walking</choice>
+			<choice id="3" correct="false">was walk</choice>
+			<choice id="4" correct="false">were walk</choice>
+		</question>
+		<question id="5">
+			<ask>When do we use the past progressive?</ask>
+			<choice id="1" correct="true">To talk about an activity that was in progress at some point in the past.</choice>
+			<choice id="2" correct="false">To talk about an activity that has finished.</choice>
+			<choice id="3" correct="false">To talk about an activity that was in progress and finished in the past.</choice>
+			<choice id="4" correct="false">To talk about the duration of something and when it was finished.</choice>
+		</question>
+		<question id="6">
+			<ask>We ___ tea when our grandparents came.</ask>
+			<choice id="1" correct="true">were having</choice>
+			<choice id="2" correct="false">were </choice>
+			<choice id="3" correct="false">was having</choice>
+		</question>
+		<question id="7">
+			<ask>He ___ the house this time yesterday.</ask>
+			<choice id="1" correct="true">was painting</choice>
+			<choice id="2" correct="false">were painting</choice>
+			<choice id="3" correct="false">painting</choice>
+		</question>
+		<question id="8">
+			<ask>Mary ___ home when she met her old friend.</ask>
+			<choice id="1" correct="true">was walking</choice>
+			<choice id="2" correct="false">was walk</choice>
+			<choice id="3" correct="false">were walking</choice>
+		</question>
+	</lesson>
+	<lesson level="pre-intermediate" section="grammar" id="6">
+		<question id="1">
+			<ask>"At this time tomorrow, _________ relaxing on a tropical beach."</ask>
+			<choice id="1" correct="true">I will be</choice>
+			<choice id="2" correct="false">I am be</choice>
+			<choice id="3" correct="false">I was be</choice>
+			<choice id="4" correct="false">I not be</choice>
+		</question>
+		<question id="2">
+			<ask>"Nathan will be ___________ school later today because he got detention."</ask>
+			<choice id="1" correct="true">finishing</choice>
+			<choice id="2" correct="false">finish</choice>
+			<choice id="3" correct="false">not finish</choice>
+			<choice id="4" correct="false">won't finish</choice>
+		</question>
+		<question id="3">
+			<ask>What is the future continuous tense used for?</ask>
+			<choice id="1" correct="true">for future plans</choice>
+			<choice id="2" correct="false">for plans that cancelled</choice>
+			<choice id="3" correct="false">for uncertain plans</choice>
+			<choice id="4" correct="false">for plans that are already over</choice>
+		</question>
+		<question id="4">
+			<ask>A future continuous sentence must have a(n) __________.</ask>
+			<choice id="1" correct="true">time marker</choice>
+			<choice id="2" correct="false">adjective</choice>
+			<choice id="3" correct="false">noun</choice>
+			<choice id="4" correct="false">stinker</choice>
+		</question>
+		<question id="5">
+			<ask>Choose the sentence that uses the future continuous tense.</ask>
+			<choice id="1" correct="true">She will be eating dinner at 7 p.m.</choice>
+			<choice id="2" correct="false">She eating dinner at 7 p.m.</choice>
+			<choice id="3" correct="false">She will eat dinner at 7 p.m.</choice>
+			<choice id="4" correct="false">She be eating dinner at 7 p.m.</choice>
+		</question>
+		<question id="6">
+			<ask>Choose the sentence that uses the future continuous tense.</ask>
+			<choice id="1" correct="true">Will you be leaving tomorrow night?</choice>
+			<choice id="2" correct="false">Will be leaving tomorrow night?</choice>
+			<choice id="3" correct="false">Will you leave tomorrow night?</choice>
+			<choice id="4" correct="false">Are you leaving tomorrow night?</choice>
+		</question>
+		<question id="7">
+			<ask>Choose the sentence that uses the future continuous tense.</ask>
+			<choice id="1" correct="true">He won't be attending the conference.</choice>
+			<choice id="2" correct="false">He won't attend the conference.</choice>
+			<choice id="3" correct="false">He not attending the conference.</choice>
+			<choice id="4" correct="false">He won't attending the conference.</choice>
+		</question>
+		<question id="8">
+			<ask>"____________ a speech at the party tonight?"</ask>
+			<choice id="1" correct="true">Will she be giving</choice>
+			<choice id="2" correct="false">Will she give</choice>
+			<choice id="3" correct="false">Won't she give</choice>
+			<choice id="4" correct="false">Won't she giving</choice>
+		</question>
+		<question id="9">
+			<ask>"What ______________ next year?</ask>
+			<choice id="1" correct="true">will you be studying</choice>
+			<choice id="2" correct="false">will you study</choice>
+			<choice id="3" correct="false">will be study</choice>
+			<choice id="4" correct="false">will be studying</choice>
+		</question>
+		<question id="10">
+			<ask>"Janet _______________ her soul mate next summer."</ask>
+			<choice id="1" correct="true">will be marrying</choice>
+			<choice id="2" correct="false">will marry</choice>
+			<choice id="3" correct="false">will be marry</choice>
+			<choice id="4" correct="false">will marrying</choice>
+		</question>
+	</lesson>
+	<lesson level="intermediate" section="grammar" id="7">
+		<question id="1">
+			<ask>Anna ______ a good job.</ask>
+			<choice id="1" correct="true">has found</choice>
+			<choice id="2" correct="false">finds </choice>
+			<choice id="3" correct="false">founded </choice>
+			<choice id="4" correct="false">have found</choice>
+		</question>
+		<question id="2">
+			<ask>I ______ a new flat a few months ago.</ask>
+			<choice id="1" correct="true">bought </choice>
+			<choice id="2" correct="false">have been buying</choice>
+			<choice id="3" correct="false">have bought </choice>
+			<choice id="4" correct="false">buy</choice>
+		</question>
+		<question id="3">
+			<ask>______ Paul Simon’s latest record?</ask>
+			<choice id="1" correct="true">Have you heard </choice>
+			<choice id="2" correct="false">Have you been hearing</choice>
+			<choice id="3" correct="false">Did you hear </choice>
+			<choice id="4" correct="false">Are you heard</choice>
+		</question>
+		<question id="4">
+			<ask>Sorry. I ______ one of your glasses.</ask>
+			<choice id="1" correct="true">have broken </choice>
+			<choice id="2" correct="false">broke</choice>
+			<choice id="3" correct="false">break </choice>
+			<choice id="4" correct="false">have been breaking</choice>
+		</question>
+		<question id="5">
+			<ask>______ you ever ______ to London?</ask>
+			<choice id="1" correct="true">have / been</choice>
+			<choice id="2" correct="false">has / been</choice>
+			<choice id="3" correct="false">have / were</choice>
+			<choice id="4" correct="false">have / be</choice>
+		</question>
+		<question id="6">
+			<ask>I ______ not ______ him since June.</ask>
+			<choice id="1" correct="true">have / seen</choice>
+			<choice id="2" correct="false">did / see</choice>
+			<choice id="3" correct="false">did / seen</choice>
+			<choice id="4" correct="false">have / saw</choice>
+		</question>
+		<question id="7">
+			<ask>They ______ John yesterday.</ask>
+			<choice id="1" correct="true">met</choice>
+			<choice id="2" correct="false">have met</choice>
+			<choice id="3" correct="false">meeted</choice>
+			<choice id="4" correct="false">has met</choice>
+		</question>
+		<question id="8">
+			<ask>Mary ______ Paris for London in 2013.</ask>
+			<choice id="1" correct="true">left</choice>
+			<choice id="2" correct="false">has left</choice>
+			<choice id="3" correct="false">have left</choice>
+			<choice id="4" correct="false">leaved</choice>
+		</question>
+	</lesson>
+	<lesson level="intermediate" section="grammar" id="8">
+		<question id="1">
+			<ask>When I arrived at the airport, ________________.</ask>
+			<choice id="1" correct="true">my flight had already left.</choice>
+			<choice id="2" correct="false">my flight has already left.</choice>
+			<choice id="3" correct="false">my flight has leaving.</choice>
+		</question>
+		<question id="2">
+			<ask>When I got home from work yesterday, my children ________________.</ask>
+			<choice id="1" correct="true">had gone to sleep</choice>
+			<choice id="2" correct="false">had went to sleep</choice>
+			<choice id="3" correct="false">had go to sleep</choice>
+		</question>
+		<question id="3">
+			<ask>By the time Julie arrived at the office, her colleague _________________.</ask>
+			<choice id="1" correct="true">had completed the report</choice>
+			<choice id="2" correct="false">has completed the report</choice>
+			<choice id="3" correct="false">had complete the report</choice>
+		</question>
+		<question id="4">
+			<ask>By the time I arrived at the party, the other guests _________________.</ask>
+			<choice id="1" correct="true">had already eaten dinner.</choice>
+			<choice id="2" correct="false">had already eat dinner.</choice>
+			<choice id="3" correct="false">ate already dinner</choice>
+		</question>
+		<question id="5">
+			<ask>When Joe got the job, he ________________.</ask>
+			<choice id="1" correct="true">had completed his MBA.</choice>
+			<choice id="2" correct="false">has complete his MBA.</choice>
+			<choice id="3" correct="false">had complete his MBA.</choice>
+		</question>
+		<question id="6">
+			<ask>When Abdul applied to university, ____________________.</ask>
+			<choice id="1" correct="true">he had already completed his TOEFL</choice>
+			<choice id="2" correct="false">he has already completed his TOEFL.</choice>
+			<choice id="3" correct="false">he already complete his TOEFL.</choice>
+		</question>
+		<question id="7">
+			<ask>He had been away for many years and when he visited his native town, he saw that it  greatly.</ask>
+			<choice id="1" correct="true">had changed</choice>
+			<choice id="2" correct="false">was changing</choice>
+			<choice id="3" correct="false">had been changing</choice>
+		</question>
+		<question id="8">
+			<ask>While I  the dishes last night, I dropped a plate and broke it.</ask>
+			<choice id="1" correct="true">was washing</choice>
+			<choice id="2" correct="false">washed</choice>
+			<choice id="3" correct="false">had washed</choice>
+		</question>
+	</lesson>
+	<lesson level="intermediate" section="grammar" id="9">
+		<question id="1">
+			<ask>Look at her hands! They are dirty! She _______ fruits for 2 hours.</ask>
+			<choice id="1" correct="true">has been picking</choice>
+			<choice id="2" correct="false">have been picking</choice>
+			<choice id="3" correct="false">was picking</choice>
+			<choice id="4" correct="false">picked</choice>
+		</question>
+		<question id="2">
+			<ask>Is it true that you _______ to find me all day long? </ask>
+			<choice id="1" correct="true">have been trying</choice>
+			<choice id="2" correct="false">has been tried</choice>
+			<choice id="3" correct="false">have been</choice>
+			<choice id="4" correct="false">have called</choice>
+		</question>
+		<question id="3">
+			<ask>Sorry. I _______ one of your glasses</ask>
+			<choice id="1" correct="true">have broken</choice>
+			<choice id="2" correct="false">have been breaking</choice>
+			<choice id="3" correct="false">have been broken</choice>
+			<choice id="4" correct="false">have breaking</choice>
+		</question>
+		<question id="4">
+			<ask>My daughter _______ since early morning. </ask>
+			<choice id="1" correct="true">has been studying</choice>
+			<choice id="2" correct="false">have been studies</choice>
+			<choice id="3" correct="false">has studied</choice>
+			<choice id="4" correct="false">have studied</choice>
+		</question>
+		<question id="5">
+			<ask>I _______ for you since seven o’clock. Why are you so late?</ask>
+			<choice id="1" correct="true"> have been waiting</choice>
+			<choice id="2" correct="false">has been wait</choice>
+			<choice id="3" correct="false">have been waited</choice>
+			<choice id="4" correct="false">waited</choice>
+		</question>
+		<question id="6">
+			<ask>Look what Pat _______ me for my birthday! A bike!</ask>
+			<choice id="1" correct="true">has given</choice>
+			<choice id="2" correct="false">gave</choice>
+			<choice id="3" correct="false">has been giving</choice>
+			<choice id="4" correct="false">have been giving</choice>
+		</question>
+		<question id="7">
+			<ask>She’s tired because she _______ all day.</ask>
+			<choice id="1" correct="true">has been shopping</choice>
+			<choice id="2" correct="false">have been shopping</choice>
+			<choice id="3" correct="false">had been shopping</choice>
+			<choice id="4" correct="false">did been shopping</choice>
+		</question>
+		<question id="8">
+			<ask>Nobody wants to hire me. I _______ for a job since 2011.</ask>
+			<choice id="1" correct="true">have been looking</choice>
+			<choice id="2" correct="false">had been looked</choice>
+			<choice id="3" correct="false">had been looking</choice>
+			<choice id="4" correct="false">was looking</choice>
+		</question>
+	</lesson>
+	<lesson level="intermediate" section="grammar" id="10">
+		<question id="1">
+			<ask>When we came back home, the children ___ for two hours.</ask>
+			<choice id="1" correct="true">had already been sleeping</choice>
+			<choice id="2" correct="false">had already be sleeping</choice>
+			<choice id="3" correct="false">had already slept</choice>
+		</question>
+		<question id="2">
+			<ask>Mom was tired yesterday. She ___ the house all day.</ask>
+			<choice id="1" correct="true">had been cleaning</choice>
+			<choice id="2" correct="false">had cleaned</choice>
+			<choice id="3" correct="false">had been cleaned</choice>
+		</question>
+		<question id="3">
+			<ask>The boys were out of breath. They ___ a marathon.</ask>
+			<choice id="1" correct="true">had been running</choice>
+			<choice id="2" correct="false">had been run</choice>
+			<choice id="3" correct="false">had running</choice>
+		</question>
+		<question id="4">
+			<ask>When I arrived, Lucy ___ in bed with temperature since lunchtime.</ask>
+			<choice id="1" correct="true">had been lying</choice>
+			<choice id="2" correct="false">had lying</choice>
+			<choice id="3" correct="false">had lied</choice>
+		</question>
+		<question id="5">
+			<ask>There were puddles in the streets as it ___ all night.</ask>
+			<choice id="1" correct="true">had been raining</choice>
+			<choice id="2" correct="false">had raining</choice>
+			<choice id="3" correct="false">had rained</choice>
+		</question>
+		<question id="6">
+			<ask>They ___ the same restaurant for years before they found a better one.</ask>
+			<choice id="1" correct="true">had been visiting</choice>
+			<choice id="2" correct="false">had visited</choice>
+			<choice id="3" correct="false">had been visit</choice>
+		</question>
+		<question id="7">
+			<ask>Mike said they ___ at the airport for two days because of the delay of their flight.</ask>
+			<choice id="1" correct="true">had been staying</choice>
+			<choice id="2" correct="false">had staying</choice>
+			<choice id="3" correct="false">had stayed</choice>
+		</question>
+		<question id="8">
+			<ask>We ___ for half an hour when Dan finally joined us.</ask>
+			<choice id="1" correct="true">had been eating</choice>
+			<choice id="2" correct="false">had eaten</choice>
+			<choice id="3" correct="false">had eating</choice>
+		</question>
+	</lesson>
+	<lesson level="upper-intermediate" section="grammar" id="11">
+		<question id="1">
+			<ask>"Can" is used to describe ability in the past.</ask>
+			<choice id="1" correct="true">false</choice>
+			<choice id="2" correct="false">true</choice>
+		</question>
+		<question id="2">
+			<ask>When I was 5 years old, I ______ run for 15 minutes without stopping.</ask>
+			<choice id="1" correct="true">could</choice>
+			<choice id="2" correct="false">can</choice>
+			<choice id="3" correct="false">am able to</choice>
+			<choice id="4" correct="false">will be able to</choice>
+		</question>
+		<question id="3">
+			<ask>I _____ finish my homework in the morning. (future)</ask>
+			<choice id="1" correct="true">can</choice>
+			<choice id="2" correct="false">could</choice>
+			<choice id="3" correct="false">was able to</choice>
+			<choice id="4" correct="false">am able to</choice>
+		</question>
+		<question id="4">
+			<ask>Albert Einstein ____ answer difficult questions.</ask>
+			<choice id="1" correct="true">could</choice>
+			<choice id="2" correct="false">can</choice>
+			<choice id="3" correct="false">is able to</choice>
+			<choice id="4" correct="false">will be able to</choice>
+		</question>
+		<question id="5">
+			<ask>If you’re not married you ______ have a more independent life, as a rule.</ask>
+			<choice id="1" correct="true">Can</choice>
+			<choice id="2" correct="false">Are able to</choice>
+			<choice id="3" correct="false">Could</choice>
+			<choice id="4" correct="false">Will be able to</choice>
+		</question>
+		<question id="6">
+			<ask>When you get married you ______ do everything you want, but not now.</ask>
+			<choice id="1" correct="true">Will be able to</choice>
+			<choice id="2" correct="false">Could</choice>
+			<choice id="3" correct="false">Can</choice>
+			<choice id="4" correct="false">Are able to</choice>
+		</question>
+		<question id="7">
+			<ask>I didn’t know how I ______ help my friend in that situation.</ask>
+			<choice id="1" correct="true">Could</choice>
+			<choice id="2" correct="false">Was able to</choice>
+			<choice id="3" correct="false">Can</choice>
+			<choice id="4" correct="false">Am able to</choice>
+		</question>
+		<question id="8">
+			<ask>Excuse me, … help me to get these bags to my car?</ask>
+			<choice id="1" correct="true">Could you</choice>
+			<choice id="2" correct="false">Are you able to</choice>
+			<choice id="3" correct="false">Can you</choice>
+			<choice id="4" correct="false">Will you be able to</choice>
+		</question>
+	</lesson>
+	<lesson level="upper-intermediate" section="grammar" id="12">
+		<question id="1">
+			<ask>The following sentence is an example of the active voice: I ate the cake.</ask>
+			<choice id="1" correct="true">True</choice>
+			<choice id="2" correct="false">False</choice>
+		</question>
+		<question id="2">
+			<ask>The following sentence is an example of the active voice: The cake was eaten.</ask>
+			<choice id="1" correct="true">False</choice>
+			<choice id="2" correct="false">True</choice>
+		</question>
+		<question id="3">
+			<ask>The following sentence is an example of the active voice: I made a mistake.</ask>
+			<choice id="1" correct="true">True</choice>
+			<choice id="2" correct="false">False</choice>
+		</question>
+		<question id="4">
+			<ask>The following is an example of the active voice: Mistakes were made.</ask>
+			<choice id="1" correct="true">False</choice>
+			<choice id="2" correct="false">True</choice>
+		</question>
+		<question id="5">
+			<ask>The following sentence is an example of the active voice:  A lot of money was stolen from the bank.</ask>
+			<choice id="1" correct="true">False</choice>
+			<choice id="2" correct="false">True</choice>
+		</question>
+		<question id="6">
+			<ask>The following sentence is an example of the active voice: I stole a lot of money from the bank.</ask>
+			<choice id="1" correct="true">True</choice>
+			<choice id="2" correct="false">False</choice>
+		</question>
+		<question id="7">
+			<ask>Businesses and governments often use the passive voice to avoid taking responsibility or blame for their actions.</ask>
+			<choice id="1" correct="true">True</choice>
+			<choice id="2" correct="false">False</choice>
+		</question>
+		<question id="8">
+			<ask>Newspapers often use the passive voice when they report on a crime, and they don't know who committed the crime.</ask>
+			<choice id="1" correct="true">True</choice>
+			<choice id="2" correct="false">False</choice>
+		</question>
+		<question id="9">
+			<ask>The passive voice is always better to use than the active voice. </ask>
+			<choice id="1" correct="true">False</choice>
+			<choice id="2" correct="false">True</choice>
+		</question>
+		<question id="10">
+			<ask>The following sentence is an example of the passive voice: The house was built in 1821.</ask>
+			<choice id="1" correct="true">True</choice>
+			<choice id="2" correct="false">False</choice>
+		</question>
+	</lesson>
+	<lesson level="upper-intermediate" section="grammar" id="13">
+		<question id="1">
+			<ask>Listen, Randy, if you really want that promotion, you ______ to put more effort into your work.</ask>
+			<choice id="1" correct="true">(all of these choices are acceptable)</choice>
+			<choice id="2" correct="false">have</choice>
+			<choice id="3" correct="false">will have</choice>
+			<choice id="4" correct="false">are going to have</choice>
+		</question>
+		<question id="2">
+			<ask>If it _____ a difference, then I'll take part. But I still have my doubts.</ask>
+			<choice id="1" correct="true">will make</choice>
+			<choice id="2" correct="false">made</choice>
+			<choice id="3" correct="false">would make</choice>
+			<choice id="4" correct="false">makes</choice>
+		</question>
+		<question id="3">
+			<ask>"If Jim didn't have to take Sarah to the doctor, he would definitely go meet you."
+
+				Will Jim go meet you?</ask>
+			<choice id="1" correct="true">no</choice>
+			<choice id="2" correct="false">yes</choice>
+		</question>
+		<question id="4">
+			<ask>Oh my Goodness! My favorite numbers came up for the lottery this week. If I had bought a ticket, __________.</ask>
+			<choice id="1" correct="true">I would be rich now</choice>
+			<choice id="2" correct="false">I am rich now</choice>
+			<choice id="3" correct="false">I will be rich now</choice>
+			<choice id="4" correct="false">I would have been rich now</choice>
+		</question>
+		<question id="5">
+			<ask>I hope everyone came prepared. If you didn't practice, this test ______ very difficult for you.</ask>
+			<choice id="1" correct="true">will be</choice>
+			<choice id="2" correct="false">is</choice>
+			<choice id="3" correct="false">was</choice>
+			<choice id="4" correct="false">had been</choice>
+		</question>
+		<question id="6">
+			<ask>A: I just got off the phone with Mrs. Carter. We are meeting tomorrow. I really don't want to see her.
+				B: Then why did you agree to the meeting if you ________ to see her?</ask>
+			<choice id="1" correct="true">don't want</choice>
+			<choice id="2" correct="false">wouldn't have wanted</choice>
+			<choice id="3" correct="false">didn't want</choice>
+			<choice id="4" correct="false">hadn't wanted</choice>
+		</question>
+		<question id="7">
+			<ask>A: The Employee-of-the-Year awards are coming soon. Do you think the boss will nominate Larry?
+				B: If Larry hadn't missed all those meetings last month, the boss ________ him on that nominations list.</ask>
+			<choice id="1" correct="true">would probably put</choice>
+			<choice id="2" correct="false">probably put</choice>
+			<choice id="3" correct="false">will probably put</choice>
+			<choice id="4" correct="false">would have probably put</choice>
+		</question>
+		<question id="8">
+			<ask>If Tim had paid more attention to his business, he ________ it today.</ask>
+			<choice id="1" correct="true">would still be running</choice>
+			<choice id="2" correct="false">would have still been running</choice>
+			<choice id="3" correct="false">would have still run</choice>
+			<choice id="4" correct="false">will still be running</choice>
+		</question>
+		<question id="9">
+			<ask>"Scott would have taken Samantha to the movies last night if she hadn't already seen all the movies that are playing now."</ask>
+			<choice id="1" correct="true">No, because there were no new movies for Samantha to see.</choice>
+			<choice id="2" correct="false">Yes, because Scott wanted to see all the movies playing now.</choice>
+			<choice id="3" correct="false">Yes, because Samantha wanted to see a movie playing now.</choice>
+			<choice id="4" correct="false">No, because there were no new movies for Scott to see.</choice>
+		</question>
+		<question id="10">
+			<ask>Emma: "How about going skiing this weekend?"
+				James: "I would if I had the money."
+
+				Will James go skiing this weekend?</ask>
+			<choice id="1" correct="true">no</choice>
+			<choice id="2" correct="false">yes</choice>
+		</question>
+	</lesson>
+	<lesson level="advanced" section="grammar" id="14">
+		<question id="1">
+			<ask>I hate Canadian winters. I wish I ______ in Hawaii right now.</ask>
+			<choice id="1" correct="true">were</choice>
+			<choice id="2" correct="false">was</choice>
+			<choice id="3" correct="false">am</choice>
+			<choice id="4" correct="false">will be</choice>
+		</question>
+		<question id="2">
+			<ask>Yesterday, John told me that he wishes he ________ harder in high school because then university might not be so difficult for him.</ask>
+			<choice id="1" correct="true">had studied</choice>
+			<choice id="2" correct="false">studied</choice>
+			<choice id="3" correct="false">would study</choice>
+			<choice id="4" correct="false">studies</choice>
+		</question>
+		<question id="3">
+			<ask>Elaine wishes her boyfriend were a romantic type.
+				Does Elaine's boyfriend buy her flowers unexpectedly?</ask>
+			<choice id="1" correct="true">Probably not.</choice>
+			<choice id="2" correct="false">Probably.</choice>
+		</question>
+		<question id="4">
+			<ask>Jake: "Hey Mike, want to go see a basketball game next week?"
+				Mike: "I wish I could afford it."
+
+				What does Mike mean?</ask>
+			<choice id="1" correct="true">he wants to, but he doesn't have the money</choice>
+			<choice id="2" correct="false">he wants to, but he doesn't have time</choice>
+			<choice id="3" correct="false">he doesn't want to</choice>
+			<choice id="4" correct="false">he wants to play basketball, not watch it</choice>
+		</question>
+		<question id="5">
+			<ask>Anjali: "Wow, you're such a good singer, you must get lots of dates."
+				Nick: "I wish."
+
+				Does Nick get many dates?</ask>
+			<choice id="1" correct="true">No</choice>
+			<choice id="2" correct="false">Yes</choice>
+		</question>
+		<question id="6">
+			<ask>"Don't you just wish that learning a language were easier?"
+
+				This question means that learning English is easy.</ask>
+			<choice id="1" correct="true">false</choice>
+			<choice id="2" correct="false">true</choice>
+		</question>
+		<question id="7">
+			<ask>Amanda wishes her hair ______ longer.</ask>
+			<choice id="1" correct="true">were</choice>
+			<choice id="2" correct="false">are</choice>
+			<choice id="3" correct="false">is</choice>
+			<choice id="4" correct="false">pretty</choice>
+		</question>
+		<question id="8">
+			<ask>Marv: "Do you think Nancy likes you?"
+				Dwight: "I wish I knew."
+
+				Dwight should ask Nancy out on a date because she will definitely say yes.</ask>
+			<choice id="1" correct="true">false</choice>
+			<choice id="2" correct="false">true</choice>
+		</question>
+		<question id="9">
+			<ask>Don't you wish summer ________ longer?</ask>
+			<choice id="1" correct="true">lasted</choice>
+			<choice id="2" correct="false">lasts</choice>
+			<choice id="3" correct="false">last</choice>
+			<choice id="4" correct="false">lasting</choice>
+		</question>
+		<question id="10">
+			<ask>Shan: "If you could make one wish come true, what would you wish for?"
+				Josh: "I'd wish _________________"</ask>
+			<choice id="1" correct="true">for ten million dollars.</choice>
+			<choice id="2" correct="false">I was rich.</choice>
+			<choice id="3" correct="false">I am rich.</choice>
+			<choice id="4" correct="false">that I am rich.</choice>
+		</question>
+	</lesson>
+	<lesson level="advanced" section="grammar" id="15">
+		<question id="1">
+			<ask>"Had I not fallen asleep before the end of the movie, I'd have found out who killed the Minister."
+				This sentence can be rewritten as:</ask>
+			<choice id="1" correct="true">If I hadn't fallen asleep before the end of the movie, I'd have found out who killed the Minister.</choice>
+			<choice id="2" correct="false">If I didn't fall asleep before the end of the movie, I will find out who killed the Minister.</choice>
+			<choice id="3" correct="false">If I'd known who killed the Minister, I would not have fallen asleep near the end of the movie.</choice>
+		</question>
+		<question id="2">
+			<ask>Complete the following sentence:
+				You do not have to say anything to the police, nor_______________</ask>
+			<choice id="1" correct="true">are you required to sign any documents.</choice>
+			<choice id="2" correct="false">you are required to sign any documents.</choice>
+			<choice id="3" correct="false">you have to sign anything.</choice>
+		</question>
+		<question id="3">
+			<ask>Not only _____________ pass the test, but he got the highest mark in the class!</ask>
+			<choice id="1" correct="true">did Joe</choice>
+			<choice id="2" correct="false">Joe did</choice>
+			<choice id="3" correct="false">Joe didn't</choice>
+			<choice id="4" correct="false">didn't Joe</choice>
+		</question>
+		<question id="4">
+			<ask>What is the subject of the following sentence?
+				"Here comes Michael."</ask>
+			<choice id="1" correct="true">Man, is he brave!</choice>
+			<choice id="2" correct="false">He is a such a man!</choice>
+			<choice id="3" correct="false">He is a brave man.</choice>
+			<choice id="4" correct="false">Is he brave?</choice>
+		</question>
+		<question id="5">
+			<ask>"More important than your application will be your interview."
+				What does this sentence mean?</ask>
+			<choice id="1" correct="true">Your interview will be more important than your application.</choice>
+			<choice id="2" correct="false">Your application will be more important than your interview.</choice>
+			<choice id="3" correct="false">More importantly, your application will then be your interview.</choice>
+		</question>
+		<question id="6">
+			<ask>Under no circumstances _________ reach your hand out of the bus.</ask>
+			<choice id="1" correct="true">should you</choice>
+			<choice id="2" correct="false">you can</choice>
+			<choice id="3" correct="false">you shouldn't</choice>
+			<choice id="4" correct="false">shoulder you</choice>
+		</question>
+		<question id="7">
+			<ask>"Should you need some advice, call me."
+				This sentence can be rewritten as:</ask>
+			<choice id="1" correct="true">Call me if you need some advice.</choice>
+			<choice id="2" correct="false">If you call me, I'll advise you.</choice>
+			<choice id="3" correct="false">Should you call me for advice?</choice>
+			<choice id="4" correct="false">Take my advice, call me.</choice>
+		</question>
+		<question id="8">
+			<ask>Not only __________ watch the lesson, but you did the quiz as well!</ask>
+			<choice id="1" correct="true">did you</choice>
+			<choice id="2" correct="false">you did</choice>
+			<choice id="3" correct="false">you don't</choice>
+			<choice id="4" correct="false">have you</choice>
+		</question>
+	</lesson>
+	<lesson level="advanced" section="grammar" id="16">
+		<question id="1">
+			<ask>I _____________ at the automatic car wash yesterday.</ask>
+			<choice id="1" correct="true">had my car washed</choice>
+			<choice id="2" correct="false">washed my car</choice>
+		</question>
+		<question id="2">
+			<ask>Would you like to ___________________ by a professional interior designer?</ask>
+			<choice id="1" correct="true">have your house decorated</choice>
+			<choice id="2" correct="false">decorate your house</choice>
+		</question>
+		<question id="3">
+			<ask>William _______________ all by himself today.</ask>
+			<choice id="1" correct="true">cooked dinner</choice>
+			<choice id="2" correct="false">had dinner cooked</choice>
+		</question>
+		<question id="4">
+			<ask>My mother _____________ by a professional company last month.</ask>
+			<choice id="1" correct="true">had the carpets cleaned</choice>
+			<choice id="2" correct="false">cleaned the carpets</choice>
+		</question>
+		<question id="5">
+			<ask>Eliana __________ of her family every year at Christmas. She has been using the same photographer for five years now.</ask>
+			<choice id="1" correct="true">takes portraits</choice>
+			<choice id="2" correct="false">has portraits taken</choice>
+		</question>
+		<question id="6">
+			<ask>Lucas ____________________ after the tornado struck. He had to call in a professional repair company.</ask>
+			<choice id="1" correct="true">had the roof of his house fixed</choice>
+			<choice id="2" correct="false">fixed the roof of his house</choice>
+		</question>
+		<question id="7">
+			<ask>Robert _____________ when he gets home from work. He says he enjoys the exercise.</ask>
+			<choice id="1" correct="true">walks the dogs</choice>
+			<choice id="2" correct="false">has the dogs walked</choice>
+		</question>
+		<question id="8">
+			<ask>My sister always ____________ at the salon. She says they treat her like a queen when she is there!</ask>
+			<choice id="1" correct="true">has her nails done</choice>
+			<choice id="2" correct="false">does her nails</choice>
+		</question>
+		<question id="9">
+			<ask>Matthew __________________ last week. They did it for free since it was still under warranty.</ask>
+			<choice id="1" correct="true">had his computer repaired</choice>
+			<choice id="2" correct="false">repaired his computer</choice>
+		</question>
+		<question id="10">
+			<ask>My wife _______________. She is good with her hands.</ask>
+			<choice id="1" correct="true">built our bookshelves</choice>
+			<choice id="2" correct="false">had our bookshelves built</choice>
+		</question>
+	</lesson>
+
+	<lesson level="beginner" section="reading" id="17">
+		<question id="1">
+			<ask>The statue of Hachiko is small.</ask>
+			<choice id="1" correct="true">Right</choice>
+			<choice id="2" correct="false">Wrong</choice>
+			<choice id="3" correct="false"> Doesn't say</choice>
+		</question>
+		<question id="2">
+			<ask>The statue isn't difficult to find because there are so many people there.</ask>
+			<choice id="1" correct="true">Right</choice>
+			<choice id="2" correct="false">Wrong</choice>
+			<choice id="3" correct="false"> Doesn't say</choice>
+		</question>
+		<question id="3">
+			<ask>The professor worked in a school.</ask>
+			<choice id="1" correct="true">Wrong</choice>
+			<choice id="2" correct="false">Right</choice>
+			<choice id="3" correct="false"> Doesn't say</choice>
+		</question>
+		<question id="4">
+			<ask>The professor died at work.</ask>
+			<choice id="1" correct="true">Right</choice>
+			<choice id="2" correct="false">Wrong</choice>
+			<choice id="3" correct="false">Doesn't say</choice>
+		</question>
+		<question id="5">
+			<ask>The dog waited every day at the station.</ask>
+			<choice id="1" correct="true">Right</choice>
+			<choice id="2" correct="false">Wrong</choice>
+			<choice id="3" correct="false">Doesn't say</choice>
+		</question>
+		<question id="6">
+			<ask>Nobody gave the dog any food.</ask>
+			<choice id="1" correct="true">Wrong</choice>
+			<choice id="2" correct="false">Right</choice>
+			<choice id="3" correct="false"> Doesn't say</choice>
+		</question>
+		<question id="7">
+			<ask>The dog died before the statue was put outside the station.</ask>
+			<choice id="1" correct="true">Wrong</choice>
+			<choice id="2" correct="false">Right</choice>
+			<choice id="3" correct="false">Doesn't say</choice>
+		</question>
+	</lesson>
+	<lesson level="beginner" section="reading" id="18">
+		<question id="1">
+			<ask>Pigeons are fatter in Liverpool than in other cities.</ask>
+			<choice id="1" correct="true">Doesn't say</choice>
+			<choice id="2" correct="false">Right</choice>
+			<choice id="3" correct="false">Wrong</choice>
+		</question>
+		<question id="2">
+			<ask>Pigeons get fat because they eat seeds and insects.</ask>
+			<choice id="1" correct="true">Wrong</choice>
+			<choice id="2" correct="false">Right</choice>
+			<choice id="3" correct="false">Doesn't say</choice>
+		</question>
+		<question id="3">
+			<ask>According to the council, everyone is to blame for the numbers of pigeons.</ask>
+			<choice id="1" correct="true">Wrong</choice>
+			<choice id="2" correct="false">Right</choice>
+			<choice id="3" correct="false">Doesn't say</choice>
+		</question>
+		<question id="4">
+			<ask>They want the pigeons to move out of the city centre.</ask>
+			<choice id="1" correct="true">Right</choice>
+			<choice id="2" correct="false">Wrong</choice>
+			<choice id="3" correct="false">Doesn't say</choice>
+		</question>
+		<question id="5">
+			<ask>Visitors shouldn't feed the pigeons.</ask>
+			<choice id="1" correct="true">Right</choice>
+			<choice id="2" correct="false">Wrong</choice>
+			<choice id="3" correct="false">Doesn't say</choice>
+		</question>
+		<question id="6">
+			<ask>The robotic birds can move around the city centre.</ask>
+			<choice id="1" correct="true">Wrong</choice>
+			<choice id="2" correct="false">Right</choice>
+			<choice id="3" correct="false">Doesn't say</choice>
+		</question>
+		<question id="7">
+			<ask>Liverpool is the European Capital of Culture.</ask>
+			<choice id="1" correct="true">Wrong</choice>
+			<choice id="2" correct="false">Right</choice>
+			<choice id="3" correct="false">Doesn't say</choice>
+		</question>
+	</lesson>
+	<lesson level="beginner" section="reading" id="19">
+		<question id="1">
+			<ask>Only children will take pills to improve their intellectual performance.</ask>
+			<choice id="1" correct="true">Wrong</choice>
+			<choice id="2" correct="false">Right</choice>
+			<choice id="3" correct="false">Doesn't say</choice>
+		</question>
+		<question id="2">
+			<ask>Intelligence pills are already as common as coffee or tea.</ask>
+			<choice id="1" correct="true">Wrong</choice>
+			<choice id="2" correct="false">Right</choice>
+			<choice id="3" correct="false">Doesn't say</choice>
+		</question>
+		<question id="3">
+			<ask>Coffee is as common as tea.</ask>
+			<choice id="1" correct="true">Doesn't say</choice>
+			<choice id="2" correct="false">Right</choice>
+			<choice id="3" correct="false">Wrong</choice>
+		</question>
+		<question id="4">
+			<ask>Students could have to take intelligence drugs tests.</ask>
+			<choice id="1" correct="true">Right</choice>
+			<choice id="2" correct="false">Wrong</choice>
+			<choice id="3" correct="false">Doesn't say</choice>
+		</question>
+		<question id="5">
+			<ask>A sleeping pill helps people remember numbers.</ask>
+			<choice id="1" correct="true">Right</choice>
+			<choice id="2" correct="false">Wrong</choice>
+			<choice id="3" correct="false">Doesn't say</choice>
+		</question>
+		<question id="6">
+			<ask>Vitamins to help people study are illegal.</ask>
+			<choice id="1" correct="true">Wrong</choice>
+			<choice id="2" correct="false">Right</choice>
+			<choice id="3" correct="false">Doesn't say</choice>
+		</question>
+		<question id="7">
+			<ask>Food supplements are unfair.</ask>
+			<choice id="1" correct="true">Wrong</choice>
+			<choice id="2" correct="false">Right</choice>
+			<choice id="3" correct="false">Doesn't say</choice>
+		</question>
+	</lesson>
+	<lesson level="pre-intermediate" section="reading" id="20">
+		<question id="1">
+			<ask>The writer of the article is</ask>
+			<choice id="1" correct="true">a Royal Holloway graduate.</choice>
+			<choice id="2" correct="false">a student at Royal Holloway.</choice>
+			<choice id="3" correct="false">one of the staff at Royal Holloway.</choice>
+			<choice id="4" correct="false">the head of Royal Holloway.</choice>
+		</question>
+		<question id="2">
+			<ask>The writer’s parents</ask>
+			<choice id="1" correct="true">expected her to go to college.</choice>
+			<choice id="2" correct="false">did not care much about her education.</choice>
+			<choice id="3" correct="false">paid for her university studies.</choice>
+			<choice id="4" correct="false">did not have any formal education.</choice>
+		</question>
+		<question id="3">
+			<ask>The writer studied at the university on the money from</ask>
+			<choice id="1" correct="true">the government.</choice>
+			<choice id="2" correct="false">her parents.</choice>
+			<choice id="3" correct="false">her brother.</choice>
+			<choice id="4" correct="false">her savings.</choice>
+		</question>
+		<question id="4">
+			<ask>The writer preferred to have</ask>
+			<choice id="1" correct="true">home-made meals.</choice>
+			<choice id="2" correct="false">meals from a canteen.</choice>
+			<choice id="3" correct="false">meals at cafés.</choice>
+			<choice id="4" correct="false">fast-food meals.</choice>
+		</question>
+		<question id="5">
+			<ask>In order to get into the university the writer needed</ask>
+			<choice id="1" correct="true">high grades.</choice>
+			<choice id="2" correct="false">good reference letters.</choice>
+			<choice id="3" correct="false">a lot of her parents’ money.</choice>
+			<choice id="4" correct="false">good connections.</choice>
+		</question>
+		<question id="6">
+			<ask>What did the writer find difficult?</ask>
+			<choice id="1" correct="true">Moving back home.</choice>
+			<choice id="2" correct="false">Leaving home.</choice>
+			<choice id="3" correct="false">Getting used to the university life.</choice>
+			<choice id="4" correct="false">Making friends at the college.</choice>
+		</question>
+		<question id="7">
+			<ask>Why did the writer choose to study history?</ask>
+			<choice id="1" correct="true">There were more opportunities for graduates.</choice>
+			<choice id="2" correct="false">She wanted to become a historian.</choice>
+			<choice id="3" correct="false">She wasn’t interested in anything else.</choice>
+			<choice id="4" correct="false">Her parents were also historians.</choice>
+		</question>
+		<question id="8">
+			<ask>Which of the following would be the best title for the article?</ask>
+			<choice id="1" correct="true">Memories of university life</choice>
+			<choice id="2" correct="false">The best university of London</choice>
+			<choice id="3" correct="false">How to get to Royal Holloway</choice>
+			<choice id="4" correct="false">How to succeed at Royal Holloway</choice>
+		</question>
+	</lesson>
+	<lesson level="pre-intermediate" section="reading" id="21">
+		<question id="1">
+			<ask>The article is about</ask>
+			<choice id="1" correct="true">an outstanding achievement.</choice>
+			<choice id="2" correct="false">the young climber’s plans.</choice>
+			<choice id="3" correct="false">the world’s highest peak.</choice>
+			<choice id="4" correct="false">an unhappy climb.</choice>
+		</question>
+		<question id="2">
+			<ask>The boy broke a record because he</ask>
+			<choice id="1" correct="true">was the youngest person ever to climb Mount Everest.</choice>
+			<choice id="2" correct="false">climbed the highest peaks on seven continents.</choice>
+			<choice id="3" correct="false">climbed Mount Everest in record time.</choice>
+			<choice id="4" correct="false">conquered Mount Everest all alone.</choice>
+		</question>
+		<question id="3">
+			<ask>Once the boy reached the top of Mount Everest he called his</ask>
+			<choice id="1" correct="true">mother.</choice>
+			<choice id="2" correct="false">school.</choice>
+			<choice id="3" correct="false">teacher.</choice>
+			<choice id="4" correct="false">friend.</choice>
+		</question>
+		<question id="4">
+			<ask>When the boy reached the summit he</ask>
+			<choice id="1" correct="true">was happy and excited.</choice>
+			<choice id="2" correct="false">was tired and disappointed.</choice>
+			<choice id="3" correct="false">felt pain in his stomach.</choice>
+			<choice id="4" correct="false">was hungry and exhausted.</choice>
+		</question>
+		<question id="5">
+			<ask>The boy climbed Everest to</ask>
+			<choice id="1" correct="true">encourage young people to exercise.</choice>
+			<choice id="2" correct="false">inspire children to read more.</choice>
+			<choice id="3" correct="false">break a new mountaineering record.</choice>
+			<choice id="4" correct="false">become world famous.</choice>
+		</question>
+		<question id="6">
+			<ask>The boy decided to climb the world’s highest peaks</ask>
+			<choice id="1" correct="true">at the age of nine.</choice>
+			<choice id="2" correct="false">three years ago.</choice>
+			<choice id="3" correct="false">at secondary school.</choice>
+			<choice id="4" correct="false">in his early teens.</choice>
+		</question>
+		<question id="7">
+			<ask>What does the reader learn from the article?</ask>
+			<choice id="1" correct="true">The boy plans another climb by the end of the year.</choice>
+			<choice id="2" correct="false">The boy was too young for the climb.</choice>
+			<choice id="3" correct="false">The climb was easier than the boy had thought.</choice>
+			<choice id="4" correct="false">The boy is disappointed with the climb.</choice>
+		</question>
+		<question id="8">
+			<ask>Which of the following would be the best title for the article?</ask>
+			<choice id="1" correct="true">A 13-year-old conquers Everest</choice>
+			<choice id="2" correct="false">A boy goes on a dangerous mission all alone</choice>
+			<choice id="3" correct="false">A teenager climbs the Seven Summits</choice>
+			<choice id="4" correct="false">Just one of the expeditions to Everest</choice>
+		</question>
+	</lesson>
+	<lesson level="pre-intermediate" section="reading" id="22">
+		<question id="1">
+			<ask>Sophia is writing to the manager because she wants to ...</ask>
+			<choice id="1" correct="true">say that what had happened was not her fault.</choice>
+			<choice id="2" correct="false">speak about her work experience.</choice>
+			<choice id="3" correct="false">tell the manager how she is enjoying the job.</choice>
+			<choice id="4" correct="false">say that The Edelweiss hotel had a bad service.</choice>
+		</question>
+		<question id="2">
+			<ask>The bus driver was not happy because</ask>
+			<choice id="1" correct="true">the flight was late.</choice>
+			<choice id="2" correct="false">the hotel was a long way to drive.</choice>
+			<choice id="3" correct="false">the tourists were tired and hungry.</choice>
+			<choice id="4" correct="false">the guide treated him badly.</choice>
+		</question>
+		<question id="3">
+			<ask>The Edelweiss hotel couldn’t receive the guests because</ask>
+			<choice id="1" correct="true">it didn’t have any free rooms.</choice>
+			<choice id="2" correct="false">they had a conference.</choice>
+			<choice id="3" correct="false">they didn’t like the guide.</choice>
+			<choice id="4" correct="false">it was too late.</choice>
+		</question>
+		<question id="4">
+			<ask>Some of the tourists were angry because</ask>
+			<choice id="1" correct="true">they had to take taxis.</choice>
+			<choice id="2" correct="false">the hotel was so far away.</choice>
+			<choice id="3" correct="false">the guide had left them.</choice>
+			<choice id="4" correct="false">the driver was not attentive.</choice>
+		</question>
+		<question id="5">
+			<ask>In the end who found the rooms for the tourists?</ask>
+			<choice id="1" correct="true">The manager of The Edelweiss hotel</choice>
+			<choice id="2" correct="false">The guide herself</choice>
+			<choice id="3" correct="false">The manager of The Sunshine hotel</choice>
+			<choice id="4" correct="false">The driver</choice>
+		</question>
+		<question id="6">
+			<ask>What is the writer trying to do?</ask>
+			<choice id="1" correct="true">explain</choice>
+			<choice id="2" correct="false">argue</choice>
+			<choice id="3" correct="false">apologize</choice>
+			<choice id="4" correct="false">complain</choice>
+		</question>
+		<question id="7">
+			<ask>The writer probably feels</ask>
+			<choice id="1" correct="true">worried.</choice>
+			<choice id="2" correct="false">happy.</choice>
+			<choice id="3" correct="false">tired.</choice>
+			<choice id="4" correct="false">busy.</choice>
+		</question>
+		<question id="8">
+			<ask>Which of the following would be the best title for the text?</ask>
+			<choice id="1" correct="true">Not Sophia’s fault</choice>
+			<choice id="2" correct="false">Sophia’s worst day</choice>
+			<choice id="3" correct="false">The best job for Sophia</choice>
+			<choice id="4" correct="false">Sophia’s mistake</choice>
+		</question>
+	</lesson>
+	<lesson level="intermediate" section="reading" id="23">
+		<question id="1">
+			<ask>The problems at Airbus</ask>
+			<choice id="1" correct="true">are well on their way to being sorted out.</choice>
+			<choice id="2" correct="false">have been resolved completely.</choice>
+			<choice id="3" correct="false">are far from resolved.</choice>
+		</question>
+		<question id="2">
+			<ask>Airbus announced</ask>
+			<choice id="1" correct="true">a large number of orders on the first day of the show.</choice>
+			<choice id="2" correct="false">some orders on the first day of the show.</choice>
+			<choice id="3" correct="false">a few orders on the first day of the show.</choice>
+		</question>
+		<question id="3">
+			<ask>Qatar Airways ordered</ask>
+			<choice id="1" correct="true">3 planes on Monday.</choice>
+			<choice id="2" correct="false">80 planes on Monday.</choice>
+			<choice id="3" correct="false">83 planes on Monday.</choice>
+		</question>
+		<question id="4">
+			<ask>US Airways</ask>
+			<choice id="1" correct="true">didn't place an order for the new super-jumbo.</choice>
+			<choice id="2" correct="false">placed an order for the new super-jumbo.</choice>
+			<choice id="3" correct="false">may have placed an order for the new super-jumbo.</choice>
+		</question>
+		<question id="5">
+			<ask>Boeing</ask>
+			<choice id="1" correct="true">may sell some Dreamliners to Delta Air Lines.</choice>
+			<choice id="2" correct="false">announced sales of the Dreamliner.</choice>
+			<choice id="3" correct="false">may sell some Dreamliners to General Electric.</choice>
+		</question>
+		<question id="6">
+			<ask>The Wall Street Journal website report</ask>
+			<choice id="1" correct="true">was possibly correct.</choice>
+			<choice id="2" correct="false">was possibly correct.</choice>
+			<choice id="3" correct="false">was definitely wrong.</choice>
+		</question>
+	</lesson>
+	<lesson level="intermediate" section="reading" id="24">
+		<question id="1">
+			<ask>Shambo lived in a religious community.</ask>
+			<choice id="1" correct="true">True</choice>
+			<choice id="2" correct="false">False</choice>
+		</question>
+		<question id="2">
+			<ask>The community did not do much to try to save him.</ask>
+			<choice id="1" correct="true">False</choice>
+			<choice id="2" correct="false">True</choice>
+		</question>
+		<question id="3">
+			<ask>The case went to more than one court.</ask>
+			<choice id="1" correct="true">True</choice>
+			<choice id="2" correct="false">False</choice>
+		</question>
+		<question id="4">
+			<ask>Police went in because there were violent protests.</ask>
+			<choice id="1" correct="true">False</choice>
+			<choice id="2" correct="false">True</choice>
+		</question>
+		<question id="5">
+			<ask>Everybody feels that he needed to be killed.</ask>
+			<choice id="1" correct="true">False</choice>
+			<choice id="2" correct="false">True</choice>
+		</question>
+		<question id="6">
+			<ask>The community wanted Shambo to mix with other animals despite the TB test.</ask>
+			<choice id="1" correct="true">False</choice>
+			<choice id="2" correct="false">True</choice>
+		</question>
+		<question id="7">
+			<ask>Shambo was definitely ill with TB.</ask>
+			<choice id="1" correct="true">False</choice>
+			<choice id="2" correct="false">True</choice>
+		</question>
+		<question id="8">
+			<ask>The authorities entered the place where Shambo was kept without any problems.</ask>
+			<choice id="1" correct="true">False</choice>
+			<choice id="2" correct="false">True</choice>
+		</question>
+		<question id="9">
+			<ask>Shambo was shot dead.</ask>
+			<choice id="1" correct="true">False</choice>
+			<choice id="2" correct="false">True</choice>
+		</question>
+		<question id="10">
+			<ask>From now on, no cows that test positive will be killed.</ask>
+			<choice id="1" correct="true">False</choice>
+			<choice id="2" correct="false">True</choice>
+		</question>
+	</lesson>
+	<lesson level="intermediate" section="reading" id="25">
+		<question id="1">
+			<ask>In the first line, the writer says 'it is claimed' because</ask>
+			<choice id="1" correct="true">they want to distance themselves from the statement.</choice>
+			<choice id="2" correct="false">no one agrees with the statement.</choice>
+			<choice id="3" correct="false">everyone agrees with the statement.</choice>
+			<choice id="4" correct="false">they agree with the statement.</choice>
+		</question>
+		<question id="2">
+			<ask>Reality television has</ask>
+			<choice id="1" correct="true">has been popular since approximately 2000.</choice>
+			<choice id="2" correct="false">has only been popular since 2000.</choice>
+			<choice id="3" correct="false">has been popular since well before 2000.</choice>
+			<choice id="4" correct="false">always been this popular.always been this popular.</choice>
+		</question>
+		<question id="3">
+			<ask>Japan</ask>
+			<choice id="1" correct="true">has produced demeaning TV shows copied elsewhere.</choice>
+			<choice id="2" correct="false">is the only place to produce demeaning TV shows.</choice>
+			<choice id="3" correct="false">produced Big Brother.</choice>
+			<choice id="4" correct="false">invented surveillance focused productions.</choice>
+		</question>
+		<question id="4">
+			<ask>People have criticised reality television because</ask>
+			<choice id="1" correct="true">the name is inaccurate.</choice>
+			<choice id="2" correct="false">it is demeaning.</choice>
+			<choice id="3" correct="false">it uses exotic locations.</choice>
+			<choice id="4" correct="false">it shows reality.</choice>
+		</question>
+		<question id="5">
+			<ask>Reality TV appeals to some because</ask>
+			<choice id="1" correct="true">it shows average people in exceptional circumstances.</choice>
+			<choice id="2" correct="false">it shows eligible males dating women.</choice>
+			<choice id="3" correct="false">it uses exotic locations.</choice>
+			<choice id="4" correct="false">it can turn ordinary people into celebrities.</choice>
+		</question>
+		<question id="6">
+			<ask>Pop Idol</ask>
+			<choice id="1" correct="true">is more likely to turn its particiapants into celebrities than Big Brother.</choice>
+			<choice id="2" correct="false">turns all its participants into celebrities.</choice>
+			<choice id="3" correct="false">is less likely to turn its particiapants into celebrities than Big Brother.</choice>
+			<choice id="4" correct="false">is a dating show.</choice>
+		</question>
+		<question id="7">
+			<ask>The term 'reality television' is inaccurate</ask>
+			<choice id="1" correct="true">for special-living-environment programs.</choice>
+			<choice id="2" correct="false">for all programs.</choice>
+			<choice id="3" correct="false">just for Big Brother and Survivor.</choice>
+			<choice id="4" correct="false">for talent and performance programs.</choice>
+		</question>
+		<question id="8">
+			<ask>Producers choose the participants</ask>
+			<choice id="1" correct="true">to create conflict among other things.</choice>
+			<choice id="2" correct="false">on the ground of talent.</choice>
+			<choice id="3" correct="false">only for special-living-environment shows.</choice>
+			<choice id="4" correct="false">to make a fabricated world.</choice>
+		</question>
+		<question id="9">
+			<ask>Paul Burnett</ask>
+			<choice id="1" correct="true">thinks the term 'reality television' is inaccurate.</choice>
+			<choice id="2" correct="false">was a participant on Survivor.</choice>
+			<choice id="3" correct="false">is a critic of reality TV.</choice>
+			<choice id="4" correct="false">writes the script for Survivor.</choice>
+		</question>
+		<question id="10">
+			<ask>Shows like Survivor</ask>
+			<choice id="1" correct="true">have good narratives.</choice>
+			<choice id="2" correct="false">are definitely reality TV.</choice>
+			<choice id="3" correct="false">are scripted.</choice>
+			<choice id="4" correct="false">are theatre.</choice>
+		</question>
+	</lesson>
+	<lesson level="upper-intermediate" section="reading" id="26">
+		<question id="1">
+			<ask>Most people visit Siem Reap because of the temples in the area.</ask>
+			<choice id="1" correct="true">True</choice>
+			<choice id="2" correct="false">False</choice>
+		</question>
+		<question id="2">
+			<ask>In the 9th to the 14th centuries, Europe was more advanced than Cambodia.</ask>
+			<choice id="1" correct="true">False</choice>
+			<choice id="2" correct="false">True</choice>
+		</question>
+		<question id="3">
+			<ask>Angkor Wat was the capital of the Cambodian empire.</ask>
+			<choice id="1" correct="true">False</choice>
+			<choice id="2" correct="false">True</choice>
+		</question>
+		<question id="4">
+			<ask>It took many decades to build the capital.</ask>
+			<choice id="1" correct="true">False</choice>
+			<choice id="2" correct="false">True</choice>
+		</question>
+		<question id="5">
+			<ask>The stonework of Angkor Wat is in poor condition today.</ask>
+			<choice id="1" correct="true">False</choice>
+			<choice id="2" correct="false">True</choice>
+		</question>
+		<question id="6">
+			<ask>It'll take a couple of days to see everything.</ask>
+			<choice id="1" correct="true">False</choice>
+			<choice id="2" correct="false">True</choice>
+		</question>
+		<question id="7">
+			<ask>Dawn and dusk are particularly good times to visit Angkor Wat.</ask>
+			<choice id="1" correct="true">True</choice>
+			<choice id="2" correct="false">False</choice>
+		</question>
+		<question id="8">
+			<ask>You must get a visa before flying to Siem Reap.</ask>
+			<choice id="1" correct="true">False</choice>
+			<choice id="2" correct="false">True</choice>
+		</question>
+		<question id="9">
+			<ask>You will need a couple of passport photos.</ask>
+			<choice id="1" correct="true">True</choice>
+			<choice id="2" correct="false">False</choice>
+		</question>
+		<question id="10">
+			<ask>The US dollar is widely accepted in Cambodia.</ask>
+			<choice id="1" correct="true">True</choice>
+			<choice id="2" correct="false">False</choice>
+		</question>
+	</lesson>
+	<lesson level="upper-intermediate" section="reading" id="27">
+		<question id="1">
+			<ask>The descendants of the cannibals are sorry about what happened.</ask>
+			<choice id="1" correct="true">True</choice>
+			<choice id="2" correct="false">False</choice>
+		</question>
+		<question id="2">
+			<ask>Few people attended the ceremony.</ask>
+			<choice id="1" correct="true">False</choice>
+			<choice id="2" correct="false">True</choice>
+		</question>
+		<question id="3">
+			<ask>The ceremony was held in the UK.</ask>
+			<choice id="1" correct="true">False</choice>
+			<choice id="2" correct="false">True</choice>
+		</question>
+		<question id="4">
+			<ask>The missionaries were killed very soon after they arrived.</ask>
+			<choice id="1" correct="true">False</choice>
+			<choice id="2" correct="false">True</choice>
+		</question>
+		<question id="5">
+			<ask>No one was punished for the killings.</ask>
+			<choice id="1" correct="true">False</choice>
+			<choice id="2" correct="false">True</choice>
+		</question>
+		<question id="6">
+			<ask>The Fijian representative attended.</ask>
+			<choice id="1" correct="true">True</choice>
+			<choice id="2" correct="false">False</choice>
+		</question>
+		<question id="7">
+			<ask>Ratu Isoa Tikoca was not moved by the ceremony.</ask>
+			<choice id="1" correct="true">False</choice>
+			<choice id="2" correct="false">True</choice>
+		</question>
+		<question id="8">
+			<ask>Candles were lit to remember the missionaries.</ask>
+			<choice id="1" correct="true">True</choice>
+			<choice id="2" correct="false">False</choice>
+		</question>
+		<question id="9">
+			<ask>Sir Paulias Matane resents the work of the early missionaries.</ask>
+			<choice id="1" correct="true">False</choice>
+			<choice id="2" correct="false">True</choice>
+		</question>
+		<question id="10">
+			<ask>Sir Paulias Matane wishes that more people had religious principles.</ask>
+			<choice id="1" correct="true">True</choice>
+			<choice id="2" correct="false">False</choice>
+		</question>
+	</lesson>
+	<lesson level="upper-intermediate" section="reading" id="28">
+		<question id="1">
+			<ask>Scotland and England</ask>
+			<choice id="1" correct="true">have been united for a long time.</choice>
+			<choice id="2" correct="false">have always been united.</choice>
+			<choice id="3" correct="false">want to break up the union.</choice>
+			<choice id="4" correct="false">were united by war.</choice>
+		</question>
+		<question id="2">
+			<ask>Great Britain</ask>
+			<choice id="1" correct="true">was formed by Acts of Parliament that came into effect on May 1st 1707.</choice>
+			<choice id="2" correct="false">was formed by an Act of Parliament in 1706.</choice>
+			<choice id="3" correct="false">was formed by two Acts of Parliament in 1707.</choice>
+			<choice id="4" correct="false">was formed by an Act of Parliament that came into effect on May 1st 1707.</choice>
+		</question>
+		<question id="3">
+			<ask>People who want indepence for Scotland</ask>
+			<choice id="1" correct="true">are the slight majority.</choice>
+			<choice id="2" correct="false">are the vast majority.</choice>
+			<choice id="3" correct="false">have decreased in number since devolution.</choice>
+			<choice id="4" correct="false">are in the minority.</choice>
+		</question>
+		<question id="4">
+			<ask>The majority of people wanted independence for the first time</ask>
+			<choice id="1" correct="true">before devolution.</choice>
+			<choice id="2" correct="false">in 1999.</choice>
+			<choice id="3" correct="false">after devolution.</choice>
+			<choice id="4" correct="false">before and after independence.</choice>
+		</question>
+		<question id="5">
+			<ask>The results of the poll are good news</ask>
+			<choice id="1" correct="true">for the Scottish Nationalist Party.</choice>
+			<choice id="2" correct="false">for Labour.</choice>
+			<choice id="3" correct="false">for both parties.</choice>
+			<choice id="4" correct="false">for devolution.</choice>
+		</question>
+		<question id="6">
+			<ask>Most people's opinions of devolution</ask>
+			<choice id="1" correct="true">have gone down.</choice>
+			<choice id="2" correct="false">have gone up.</choice>
+			<choice id="3" correct="false">are the same.</choice>
+			<choice id="4" correct="false">make progress against Labour.</choice>
+		</question>
+		<question id="7">
+			<ask>The number of people who want to keep things as they are</ask>
+			<choice id="1" correct="true">is greater than those that don't know.</choice>
+			<choice id="2" correct="false">is smaller than those that don't know.</choice>
+			<choice id="3" correct="false">is increasing.</choice>
+			<choice id="4" correct="false">is the majority.</choice>
+		</question>
+	</lesson>
+	<lesson level="advanced" section="reading" id="29">
+		<question id="1">
+			<ask>The Student Services Office familiarises students with the student code.</ask>
+			<choice id="1" correct="true">False</choice>
+			<choice id="2" correct="false">True</choice>
+			<choice id="3" correct="false">Not given</choice>
+		</question>
+		<question id="2">
+			<ask>Cheats will automatically be expelled because their behaviour cannot be condoned.</ask>
+			<choice id="1" correct="true">False</choice>
+			<choice id="2" correct="false">True</choice>
+			<choice id="3" correct="false">Not given</choice>
+		</question>
+		<question id="3">
+			<ask>The text lists all activities that are considered to be cheating.</ask>
+			<choice id="1" correct="true">False</choice>
+			<choice id="2" correct="false">True</choice>
+			<choice id="3" correct="false">Not given</choice>
+		</question>
+		<question id="4">
+			<ask>According to the text, cheating is a more serious offence than plagiarism.</ask>
+			<choice id="1" correct="true">Not given</choice>
+			<choice id="2" correct="false">True</choice>
+			<choice id="3" correct="false">False</choice>
+		</question>
+		<question id="5">
+			<ask>It is never acceptable to paraphrase closely.</ask>
+			<choice id="1" correct="true">False</choice>
+			<choice id="2" correct="false">True</choice>
+			<choice id="3" correct="false">Not given</choice>
+		</question>
+		<question id="6">
+			<ask>Students can submit the same work in different courses as long as they ask their lecturer and it is not their own.</ask>
+			<choice id="1" correct="true">False</choice>
+			<choice id="2" correct="false">Not given</choice>
+			<choice id="3" correct="false">True</choice>
+		</question>
+		<question id="7">
+			<ask>If students want to use other students' laboratory data, they must ask them and the lecturer first.</ask>
+			<choice id="1" correct="true">False</choice>
+			<choice id="2" correct="false">True</choice>
+			<choice id="3" correct="false">Not given</choice>
+		</question>
+		<question id="8">
+			<ask>Data must fit the expected results.</ask>
+			<choice id="1" correct="true">Not given</choice>
+			<choice id="2" correct="false">True</choice>
+			<choice id="3" correct="false">False</choice>
+		</question>
+	</lesson>
+	<lesson level="advanced" section="reading" id="30">
+		<question id="1">
+			<ask>According to the writer, the Indian constitution recognises</ask>
+			<choice id="1" correct="true">Hindi as the national language.</choice>
+			<choice id="2" correct="false">22 official languages.</choice>
+			<choice id="3" correct="false">2 national, official languages.</choice>
+			<choice id="4" correct="false">2 national languages.</choice>
+		</question>
+		<question id="2">
+			<ask>English's status as a lingua franca is helped by</ask>
+			<choice id="1" correct="true">the fact that people from the south speak languages not much related to Hindi.</choice>
+			<choice id="2" correct="false">it shares many grammatical similarities with Hindi.</choice>
+			<choice id="3" correct="false">its status in northern India.</choice>
+			<choice id="4" correct="false">the fact that it is widely understood in urban centres.</choice>
+		</question>
+		<question id="3">
+			<ask>In paragraph 3, 'toehold' means that English</ask>
+			<choice id="1" correct="true">has had a presence in India.</choice>
+			<choice id="2" correct="false">dominated India.</choice>
+			<choice id="3" correct="false">changed the names of some cities in India.</choice>
+			<choice id="4" correct="false">has been in India longer than any other language.</choice>
+		</question>
+		<question id="4">
+			<ask>Hindi-speaking teachers</ask>
+			<choice id="1" correct="true">might well be heard using English.</choice>
+			<choice id="2" correct="false">only use English.</choice>
+			<choice id="3" correct="false">only use English for instructions.</choice>
+			<choice id="4" correct="false">do not use English.</choice>
+		</question>
+		<question id="5">
+			<ask>In paragraph eight, it says 'the prevailing view', which suggests that</ask>
+			<choice id="1" correct="true">the view is held by the majority.</choice>
+			<choice id="2" correct="false">the view is correct.</choice>
+			<choice id="3" correct="false">the view is incorrect.</choice>
+			<choice id="4" correct="false">the view is held by the minority.</choice>
+		</question>
+		<question id="6">
+			<ask>English in India</ask>
+			<choice id="1" correct="true">is going to have a greater importance.</choice>
+			<choice id="2" correct="false">is going to decrease.</choice>
+			<choice id="3" correct="false">has decreased since independence.</choice>
+			<choice id="4" correct="false">causes disagreement.</choice>
+		</question>
+	</lesson>
+	<lesson level="advanced" section="reading" id="31">
+		<question id="1">
+			<ask>The writer says that it is a good time to see Britain before the trees have leaves because</ask>
+			<choice id="1" correct="true">you can see how dirty Britain is now.</choice>
+			<choice id="2" correct="false">Britain looks perfect.</choice>
+			<choice id="3" correct="false">you can see Britain at its dirtiest.</choice>
+			<choice id="4" correct="false">the grass has thickened on the verges.</choice>
+		</question>
+		<question id="2">
+			<ask>According to the writer, things used to be</ask>
+			<choice id="1" correct="true">worse abroad.</choice>
+			<choice id="2" correct="false">the same abroad.</choice>
+			<choice id="3" correct="false">better abroad.</choice>
+			<choice id="4" correct="false">worse, but now things are better abroad.</choice>
+		</question>
+		<question id="3">
+			<ask>For the writer, the problem is that</ask>
+			<choice id="1" correct="true">rubbish last longer than it used to.</choice>
+			<choice id="2" correct="false">rubbish is not cleared up.</choice>
+			<choice id="3" correct="false">our society is increasingly mobile.</choice>
+			<choice id="4" correct="false">Britain is a tatty country.</choice>
+		</question>
+		<question id="4">
+			<ask>Michael Meacher</ask>
+			<choice id="1" correct="true">tried to follow the Irish example with a tax on plastic bags.</choice>
+			<choice id="2" correct="false">followed the Irish example with a tax on plastic bags.</choice>
+			<choice id="3" correct="false">made no attempt to follow the Irish example with a tax on plastic bags.</choice>
+			<choice id="4" correct="false">had problems with the plastics industry who weren't bothered about the tax.</choice>
+		</question>
+		<question id="5">
+			<ask>The writer thinks</ask>
+			<choice id="1" correct="true">we need to work together to solve the problem.</choice>
+			<choice id="2" correct="false">it is too late to do anything.</choice>
+			<choice id="3" correct="false">we are at the tipping point.</choice>
+			<choice id="4" correct="false">there is no alternative.</choice>
+		</question>
+		<question id="6">
+			<ask>The writer thinks that</ask>
+			<choice id="1" correct="true">people behave according to what they see around them.</choice>
+			<choice id="2" correct="false">people are squalid.</choice>
+			<choice id="3" correct="false">people are clean and tidy.</choice>
+			<choice id="4" correct="false">people are like a vast municipal rubbish tip.</choice>
+		</question>
+	</lesson>
+
+
+	<lesson level="beginner" section="listening" id="32">
+		<question id="1">
+			<ask>How does Joshua go to school in Japan?</ask>
+			<choice id="1" correct="true">He walks with a group of students.</choice>
+			<choice id="2" correct="false">He takes a school bus every morning</choice>
+			<choice id="3" correct="false">He rides the subway at 8:00 AM.</choice>
+		</question>
+		<question id="2">
+			<ask>Which item did Joshua NOT mention when talking about the things he takes to school?</ask>
+			<choice id="1" correct="true">school hat</choice>
+			<choice id="2" correct="false">backpack</choice>
+			<choice id="3" correct="false">gym clothes</choice>
+		</question>
+		<question id="3">
+			<ask>What is one of the first things Joshua does when he arrives at school?</ask>
+			<choice id="1" correct="true">He stands and bows to the teacher.</choice>
+			<choice id="2" correct="false">He practices his reading and writing.</choice>
+			<choice id="3" correct="false">He puts on his gym clothes for class.</choice>
+		</question>
+		<question id="4">
+			<ask>Where does Joshua eat lunch at school?</ask>
+			<choice id="1" correct="true">in his classroom</choice>
+			<choice id="2" correct="false">in the lunchroom</choice>
+			<choice id="3" correct="false">in the gymnasium</choice>
+		</question>
+		<question id="5">
+			<ask>What time does Joshua probably get home from school most days?</ask>
+			<choice id="1" correct="true">between 2:00 PM and 3:00 PM</choice>
+			<choice id="2" correct="false">between 1:00 PM and 2:00 PM</choice>
+			<choice id="3" correct="false">between 3:00 PM and 4:00 PM</choice>
+		</question>
+	</lesson>
+	<lesson level="beginner" section="listening" id="33">
+		<question id="1">
+			<ask>What does the man plan to wear during the summer months? </ask>
+			<choice id="1" correct="true">casual shoes</choice>
+			<choice id="2" correct="false">a cool hat</choice>
+			<choice id="3" correct="false">light pants</choice>
+		</question>
+		<question id="2">
+			<ask>What is one thing the man is NOT going to pack for the winter season?</ask>
+			<choice id="1" correct="true">a coat</choice>
+			<choice id="2" correct="false">some sweaters</choice>
+			<choice id="3" correct="false">a jacket</choice>
+		</question>
+		<question id="3">
+			<ask>What is the weather like in the spring?</ask>
+			<choice id="1" correct="true">It's rainy. </choice>
+			<choice id="2" correct="false">It's windy.</choice>
+			<choice id="3" correct="false">It's cool.</choice>
+		</question>
+		<question id="4">
+			<ask>What is an example of an occasion where the man might need formal clothes?</ask>
+			<choice id="1" correct="true">a wedding</choice>
+			<choice id="2" correct="false">a party</choice>
+			<choice id="3" correct="false">a business meeting</choice>
+		</question>
+		<question id="5">
+			<ask>What did the man wear to his high school graduation?</ask>
+			<choice id="1" correct="true">jeans and tennis shoes</choice>
+			<choice id="2" correct="false">a casual shirt and tie</choice>
+			<choice id="3" correct="false">a suit and dress shoes</choice>
+		</question>
+	</lesson>
+	<lesson level="beginner" section="listening" id="34">
+		<question id="1">
+			<ask>Where does the young girl want to go with her father?</ask>
+			<choice id="1" correct="true">to the movies</choice>
+			<choice id="2" correct="false">to the park</choice>
+			<choice id="3" correct="false">to the swimming pool</choice>
+		</question>
+		<question id="2">
+			<ask>Who are they going with?</ask>
+			<choice id="1" correct="true">the girl's mother</choice>
+			<choice id="2" correct="false">the girl's best friend</choice>
+			<choice id="3" correct="false">the girl's older brother</choice>
+		</question>
+		<question id="3">
+			<ask>Based on the conversation, what time will they most likely leave?</ask>
+			<choice id="1" correct="true">2:00 PM</choice>
+			<choice id="2" correct="false">9:30 AM</choice>
+			<choice id="3" correct="false">12:45 PM</choice>
+		</question>
+		<question id="4">
+			<ask>What does the girl want to do later?</ask>
+			<choice id="1" correct="true">She wants to go down to the beach.</choice>
+			<choice id="2" correct="false">She wants to walk to the ice cream store.</choice>
+			<choice id="3" correct="false">She wants to swim at the park.</choice>
+		</question>
+		<question id="5">
+			<ask>What does the father suggest they do at the end of the day?</ask>
+			<choice id="1" correct="true">go to a restaurant</choice>
+			<choice id="2" correct="false">watch a fireworks display</choice>
+			<choice id="3" correct="false">play a board game</choice>
+		</question>
+	</lesson>
+	<lesson level="pre-intermediate" section="listening" id="35">
+		<question id="1">
+			<ask>Randall used to ___________ with friends to celebrate the new year.</ask>
+			<choice id="1" correct="true">play games </choice>
+			<choice id="2" correct="false">watch movies </choice>
+			<choice id="3" correct="false">watch fireworks</choice>
+		</question>
+		<question id="2">
+			<ask>Randall and his friends would eat ________ on New Year's Eve.</ask>
+			<choice id="1" correct="true">pizza</choice>
+			<choice id="2" correct="false">salad</choice>
+			<choice id="3" correct="false">fried chicken</choice>
+		</question>
+		<question id="3">
+			<ask>When Randall's children were little, he used to ___________ on that night.</ask>
+			<choice id="1" correct="true">stay up late</choice>
+			<choice id="2" correct="false">put them to bed early</choice>
+			<choice id="3" correct="false">watch TV together</choice>
+		</question>
+		<question id="4">
+			<ask>Now, Randall usually ______________ on New Year's Eve. </ask>
+			<choice id="1" correct="true">goes to bed early </choice>
+			<choice id="2" correct="false">goes for a drive</choice>
+			<choice id="3" correct="false">prepares a special dinner</choice>
+		</question>
+		<question id="5">
+			<ask>According to Randall, New Year's Day isn't a big celebration for him because _________.</ask>
+			<choice id="1" correct="true">every new day is a new beginning</choice>
+			<choice id="2" correct="false">he doesn't like change</choice>
+			<choice id="3" correct="false">he feels like he is gettng older</choice>
+		</question>
+	</lesson>
+	<lesson level="pre-intermediate" section="listening" id="36">
+		<question id="1">
+			<ask>Where does this conversation most likely take place?</ask>
+			<choice id="1" correct="true">at a school</choice>
+			<choice id="2" correct="false">at a park</choice>
+			<choice id="3" correct="false">at a birthday party</choice>
+			<choice id="4" correct="false">at a music recital</choice>
+		</question>
+		<question id="2">
+			<ask>What is the girl's name?</ask>
+			<choice id="1" correct="true">Nancy</choice>
+			<choice id="2" correct="false">Kathy</choice>
+			<choice id="3" correct="false">Nanny</choice>
+			<choice id="4" correct="false">Karen</choice>
+		</question>
+		<question id="3">
+			<ask>Where does the girl probably live now?</ask>
+			<choice id="1" correct="true">in the United States</choice>
+			<choice id="2" correct="false">in Scotland</choice>
+			<choice id="3" correct="false">in France</choice>
+			<choice id="4" correct="false">in England</choice>
+		</question>
+		<question id="4">
+			<ask>What does the girl's father do for a living?</ask>
+			<choice id="1" correct="true">He is a professor.</choice>
+			<choice id="2" correct="false">He is a travel agent.</choice>
+			<choice id="3" correct="false">He is computer programmer.</choice>
+			<choice id="4" correct="false">He is a French teacher.</choice>
+		</question>
+		<question id="5">
+			<ask>What is one thing NOT mentioned about the girl's family?</ask>
+			<choice id="1" correct="true">why her parents lived in England for several years</choice>
+			<choice id="2" correct="false">where her mother works at the present time</choice>
+			<choice id="3" correct="false">where the girl grew up</choice>
+			<choice id="4" correct="false">how old the girl was when she moved to her present location</choice>
+		</question>
+	</lesson>
+	<lesson level="pre-intermediate" section="listening" id="37">
+		<question id="1">
+			<ask>What is the man's name?</ask>
+			<choice id="1" correct="true">The man's name is Ronald.</choice>
+			<choice id="2" correct="false">His name is Robert.</choice>
+			<choice id="3" correct="false">The man goes by Russel. </choice>
+		</question>
+		<question id="2">
+			<ask>The man was born in ____________.</ask>
+			<choice id="1" correct="true">in Canada</choice>
+			<choice id="2" correct="false">in Texas</choice>
+			<choice id="3" correct="false">in California</choice>
+		</question>
+		<question id="3">
+			<ask>What does the man do for a living? </ask>
+			<choice id="1" correct="true">He sells animals.</choice>
+			<choice id="2" correct="false">He works as a teacher.</choice>
+			<choice id="3" correct="false">He is a store cashier.</choice>
+		</question>
+		<question id="4">
+			<ask>The man ____________________.</ask>
+			<choice id="1" correct="true">has two brothers and three dogs </choice>
+			<choice id="2" correct="false">lives with his sisters and mother</choice>
+			<choice id="3" correct="false">has an older brother and younger sister</choice>
+		</question>
+		<question id="5">
+			<ask>What is the man's telephone number? </ask>
+			<choice id="1" correct="true">You can reach him at 789-1350.</choice>
+			<choice id="2" correct="false">His number is 789-3050. </choice>
+			<choice id="3" correct="false">You can call him at 789-1315.</choice>
+		</question>
+	</lesson>
+	<lesson level="intermediate" section="listening" id="38">
+		<question id="1">
+			<ask>Where does the conversation most likely take place?</ask>
+			<choice id="1" correct="true">in a university classroom</choice>
+			<choice id="2" correct="false">in a college dormitory</choice>
+			<choice id="3" correct="false">at the school's library</choice>
+		</question>
+		<question id="2">
+			<ask>What year is the woman in college?</ask>
+			<choice id="1" correct="true">fourth year</choice>
+			<choice id="2" correct="false">second year</choice>
+			<choice id="3" correct="false">third year</choice>
+		</question>
+		<question id="3">
+			<ask>Which statement is NOT true about her paying for college?</ask>
+			<choice id="1" correct="true">She is currently repaying student loans.</choice>
+			<choice id="2" correct="false">She has worked to earn college tuition.</choice>
+			<choice id="3" correct="false">She received a scholarship.</choice>
+		</question>
+		<question id="4">
+			<ask>What is her future job situation?</ask>
+			<choice id="1" correct="true">She hopes to have interviews with different companies soon.</choice>
+			<choice id="2" correct="false">She wants to go on to graduate school the following month.</choice>
+			<choice id="3" correct="false">She will work in her father's business after she graduates.</choice>
+		</question>
+		<question id="5">
+			<ask>What surprising information do we find out at the end of the conversation?</ask>
+			<choice id="1" correct="true">Paul Jones, a college teacher, is the woman's father.</choice>
+			<choice id="2" correct="false">The woman is dating the man's business teacher.</choice>
+			<choice id="3" correct="false">The man and woman are actually long-lost relatives.</choice>
+		</question>
+	</lesson>
+	<lesson level="intermediate" section="listening" id="39">
+		<question id="1">
+			<ask>Where does this conversation take place?</ask>
+			<choice id="1" correct="true">at their home</choice>
+			<choice id="2" correct="false">at the girl's dormitory</choice>
+			<choice id="3" correct="false">in the car</choice>
+		</question>
+		<question id="2">
+			<ask>What might have happened to the family car?</ask>
+			<choice id="1" correct="true">The woman drove it into some deep water.</choice>
+			<choice id="2" correct="false">Some people stole the vehicle by the lake.</choice>
+			<choice id="3" correct="false">The man's daughter hit a tree on a picnic. </choice>
+		</question>
+		<question id="3">
+			<ask>The father's computer is currently ____________. </ask>
+			<choice id="1" correct="true">in serious trouble unless it is in a waterproof container</choice>
+			<choice id="2" correct="false">in a repair shop after the woman dumped water on it</choice>
+			<choice id="3" correct="false">being stored safely in the vehicle by the lake</choice>
+		</question>
+		<question id="4">
+			<ask>The man's daughter might have been dating a man who was ___________.</ask>
+			<choice id="1" correct="true">or will be involved in some illegal activity</choice>
+			<choice id="2" correct="false">majoring in criminal justice at the university</choice>
+			<choice id="3" correct="false">working as an officer in a police gang unit</choice>
+		</question>
+		<question id="5">
+			<ask>From the conversation, the father's best course of action in the next 20 minutes is to ____________.</ask>
+			<choice id="1" correct="true">jump in his car and leave home or call the police</choice>
+			<choice id="2" correct="false">sit on his front porch and watch the sunset</choice>
+			<choice id="3" correct="false">plant some new sunflowers in his yard</choice>
+		</question>
+	</lesson>
+	<lesson level="intermediate" section="listening" id="40">
+		<question id="1">
+			<ask>Why did the man not buy the ring for sale?</ask>
+			<choice id="1" correct="true">He has no need for a ring.</choice>
+			<choice id="2" correct="false">He doesn't think it is very special.</choice>
+			<choice id="3" correct="false">Someone else bought it before him.</choice>
+			<choice id="4" correct="false">The ring is too small.</choice>
+		</question>
+		<question id="2">
+			<ask>What is the problem with the CD player?</ask>
+			<choice id="1" correct="true">The handle is damaged.</choice>
+			<choice id="2" correct="false">The buttons are scratched.</choice>
+			<choice id="3" correct="false">The CD casing is chipped.</choice>
+			<choice id="4" correct="false">The display is loose.</choice>
+		</question>
+		<question id="3">
+			<ask>The man is not interested in the leather jacket because:</ask>
+			<choice id="1" correct="true">it is stained.</choice>
+			<choice id="2" correct="false">he already has one.</choice>
+			<choice id="3" correct="false">its too expensive.</choice>
+			<choice id="4" correct="false">the seams are coming undone.</choice>
+		</question>
+		<question id="4">
+			<ask>What is the customer's initial counter offer for the records?</ask>
+			<choice id="1" correct="true">$25 </choice>
+			<choice id="2" correct="false">$28</choice>
+			<choice id="3" correct="false">$30</choice>
+			<choice id="4" correct="false">$35</choice>
+		</question>
+		<question id="5">
+			<ask>From the conversation, what does the customer probably purchase from the merchant in the end?</ask>
+			<choice id="1" correct="true">only records</choice>
+			<choice id="2" correct="false">only a vase</choice>
+			<choice id="3" correct="false">some records and a vase</choice>
+			<choice id="4" correct="false">nothing</choice>
+		</question>
+	</lesson>
+	<lesson level="upper-intermediate" section="listening" id="41">
+		<question id="1">
+			<ask>The man is looking at a Web site that helps people improve their ___________ skills.</ask>
+			<choice id="1" correct="true">writing </choice>
+			<choice id="2" correct="false">reading</choice>
+			<choice id="3" correct="false">computer</choice>
+		</question>
+		<question id="2">
+			<ask>How much does the Web service cost?</ask>
+			<choice id="1" correct="true">free</choice>
+			<choice id="2" correct="false">$10 a month</choice>
+			<choice id="3" correct="false">$5 a month</choice>
+		</question>
+		<question id="3">
+			<ask>The Web site asks for the man's name, birthday, and _____________ information.</ask>
+			<choice id="1" correct="true">bank</choice>
+			<choice id="2" correct="false">job</choice>
+			<choice id="3" correct="false">family</choice>
+		</question>
+		<question id="4">
+			<ask>The woman feels that the Web site can't be trusted because ________.</ask>
+			<choice id="1" correct="true">the site uses poor English.</choice>
+			<choice id="2" correct="false">the site's design is terrible.</choice>
+			<choice id="3" correct="false">the site charges too much money.</choice>
+		</question>
+		<question id="5">
+			<ask>The woman ________________ to protect her brother from the Web site.</ask>
+			<choice id="1" correct="true">turns the computer off </choice>
+			<choice id="2" correct="false">calls the police</choice>
+			<choice id="3" correct="false">blocks the Web site</choice>
+		</question>
+	</lesson>
+	<lesson level="upper-intermediate" section="listening" id="42">
+		<question id="1">
+			<ask>What is the man's name?</ask>
+			<choice id="1" correct="true">Ronald</choice>
+			<choice id="2" correct="false">Randall</choice>
+			<choice id="3" correct="false">Russell</choice>
+		</question>
+		<question id="2">
+			<ask>From the conversation, how did the man probably find out about Dr. Carter?</ask>
+			<choice id="1" correct="true">He saw the office on his way home from work.</choice>
+			<choice id="2" correct="false">A friend referred him to Dr. Carter's office.</choice>
+			<choice id="3" correct="false">He found Dr. Carter's number in the phone book.</choice>
+		</question>
+		<question id="3">
+			<ask>What time does he schedule an appointment to see Dr. Carter?</ask>
+			<choice id="1" correct="true">Thursday</choice>
+			<choice id="2" correct="false">Tuesday</choice>
+			<choice id="3" correct="false">Wednesday</choice>
+		</question>
+		<question id="4">
+			<ask>Why does the man want to see the doctor?</ask>
+			<choice id="1" correct="true">He injured his ankle when he fell from a ladder.</choice>
+			<choice id="2" correct="false">He hurt his knee when a tall ladder fell on him.</choice>
+			<choice id="3" correct="false">He sprain his hand when he fell off the roof of his house.</choice>
+		</question>
+		<question id="5">
+			<ask>What does the receptionist suggest at the end of the conversation?</ask>
+			<choice id="1" correct="true">The man needs to come into the office right away.</choice>
+			<choice id="2" correct="false">The man should put some ice on his injury.</choice>
+			<choice id="3" correct="false">The man ought to take it easy for a few days.</choice>
+		</question>
+	</lesson>
+	<lesson level="upper-intermediate" section="listening" id="43">
+		<question id="1">
+			<ask>Which topping is NOT mentioned as one available from this pizza shop?</ask>
+			<choice id="1" correct="true">Italian chicken</choice>
+			<choice id="2" correct="false">bacon</choice>
+			<choice id="3" correct="false">mushrooms</choice>
+		</question>
+		<question id="2">
+			<ask>What pizza does the man finally order?</ask>
+			<choice id="1" correct="true">pepperoni and mushrooms on one half and green peppers and Italian sausage on the other</choice>
+			<choice id="2" correct="false">pepperoni and Italian sausage on one half and green peppers and bacon on the other</choice>
+			<choice id="3" correct="false">pepperoni and green peppers on one half and Italian sausage and black olives on the other</choice>
+		</question>
+		<question id="3">
+			<ask>What else does the man order with his pizza?</ask>
+			<choice id="1" correct="true">bread sticks and a beverage</choice>
+			<choice id="2" correct="false">a salad and orange juice</choice>
+			<choice id="3" correct="false">a drink and chicken sticks</choice>
+		</question>
+		<question id="4">
+			<ask>What was the total of his order?</ask>
+			<choice id="1" correct="true">$15.19</choice>
+			<choice id="2" correct="false">$15.90</choice>
+			<choice id="3" correct="false">$15.99</choice>
+		</question>
+		<question id="5">
+			<ask>What is the man's telephone number and address?</ask>
+			<choice id="1" correct="true">1340 South 16 East at 340-1870</choice>
+			<choice id="2" correct="false">3040 South 60 East at 340-1870 </choice>
+			<choice id="3" correct="false">1314 South 16 East at 340-1870 </choice>
+		</question>
+	</lesson>
+	<lesson level="advanced" section="listening" id="44">
+		<question id="1">
+			<ask>Where did the car accident take place?</ask>
+			<choice id="1" correct="true">in front of the house</choice>
+			<choice id="2" correct="false">in the parking lot at the store</choice>
+			<choice id="3" correct="false">at the post office</choice>
+		</question>
+		<question id="2">
+			<ask>Which factor did NOT contribute to the accident?</ask>
+			<choice id="1" correct="true">excessive speed </choice>
+			<choice id="2" correct="false">a faulty car mechanism</choice>
+			<choice id="3" correct="false">some obstructions in the car</choice>
+		</question>
+		<question id="3">
+			<ask>Why is the girl really upset?</ask>
+			<choice id="1" correct="true">She won't have a car to drive over the weekend.</choice>
+			<choice id="2" correct="false">She wrecked her friend's car.</choice>
+			<choice id="3" correct="false">She doesn't have money to repair the car.</choice>
+		</question>
+		<question id="4">
+			<ask>What is her dad's original solution to her predicament?</ask>
+			<choice id="1" correct="true">He suggests she invite friends over to eat.</choice>
+			<choice id="2" correct="false">He offers to help pay for the repairs.</choice>
+			<choice id="3" correct="false">Her dad volunteers to drive her where she needs to go.</choice>
+		</question>
+		<question id="5">
+			<ask>How is the situation finally resolved?</ask>
+			<choice id="1" correct="true">The father reluctantly loans his car.</choice>
+			<choice id="2" correct="false">The girl decides to go camping the following week instead.</choice>
+			<choice id="3" correct="false">The girl invites friends over instead for a pizza party.</choice>
+		</question>
+	</lesson>
+	<lesson level="advanced" section="listening" id="45">
+		<question id="1">
+			<ask>Why does the man want to buy flowers for his wife?</ask>
+			<choice id="1" correct="true">The man didn't remember the day they got married.</choice>
+			<choice id="2" correct="false">He wants to surprise his wife for her birthday.</choice>
+			<choice id="3" correct="false">His wife has just received a nice job promotion.</choice>
+		</question>
+		<question id="2">
+			<ask>The florist summarizes her thoughts on men by saying that they are:</ask>
+			<choice id="1" correct="true">neglectful and cheap</choice>
+			<choice id="2" correct="false">serious and thrifty</choice>
+			<choice id="3" correct="false">conservative and cautious</choice>
+		</question>
+		<question id="3">
+			<ask>Near the beginning of the conversation, what is one thing that the woman suggests the man do for his wife?</ask>
+			<choice id="1" correct="true">take his wife to an elegant restaurant</choice>
+			<choice id="2" correct="false">purchase a couple of beautiful balloons</choice>
+			<choice id="3" correct="false">buy twelve gorgeous roses</choice>
+		</question>
+		<question id="4">
+			<ask>Why does the man panic when seeing his wife outside the store?</ask>
+			<choice id="1" correct="true">She will realize he spaced their important day.</choice>
+			<choice id="2" correct="false">Her finding him in the flower shop will spoil the surprise.</choice>
+			<choice id="3" correct="false">His wife will think he is buying the flowers for someone else.</choice>
+		</question>
+		<question id="5">
+			<ask>What is the most plausible ending to the conversation?</ask>
+			<choice id="1" correct="true">The man begs his wife to forgive him when he comes out of the shop.</choice>
+			<choice id="2" correct="false">The man's wife graciously accepts the dozen roses the man buys for her.</choice>
+			<choice id="3" correct="false">The florist delivers the flowers for the man because he is embarrassed.</choice>
+		</question>
+	</lesson>
+	<lesson level="advanced" section="listening" id="46">
+		<question id="1">
+			<ask>What product or service is the telemarketer promoting?</ask>
+			<choice id="1" correct="true">a membership to a sports club</choice>
+			<choice id="2" correct="false">a stay at a new condominium</choice>
+			<choice id="3" correct="false">a hotel in Hawaii</choice>
+		</question>
+		<question id="2">
+			<ask>Which special feature is NOT part of this offer?</ask>
+			<choice id="1" correct="true">access to free meals and beverages</choice>
+			<choice id="2" correct="false">use of fitness rooms</choice>
+			<choice id="3" correct="false">unrestricted use to a swimming pool</choice>
+		</question>
+		<question id="3">
+			<ask>Why does the man turn down the offer?</ask>
+			<choice id="1" correct="true">He doesn't need the service being provided.</choice>
+			<choice id="2" correct="false">He never buys things over the phone.</choice>
+			<choice id="3" correct="false">He doesn't have extra money to spend.</choice>
+		</question>
+		<question id="4">
+			<ask>What statement is true about the "do not call" list according to the conversation?</ask>
+			<choice id="1" correct="true">The man might be called by another company representative in the coming weeks.</choice>
+			<choice id="2" correct="false">It will take four to six weeks to remove the man's name from the company's phone list.</choice>
+			<choice id="3" correct="false">The man can request that his name be added again to the company's database.</choice>
+		</question>
+		<question id="5">
+			<ask>What is the man's name?</ask>
+			<choice id="1" correct="true">Mr. Phillips</choice>
+			<choice id="2" correct="false">Mr. Jones</choice>
+			<choice id="3" correct="false">Mr. Williams</choice>
+		</question>
+	</lesson>
+</tests>

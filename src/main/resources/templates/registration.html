@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" layout:decorator="layout">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Registration</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/registration.css}" />   
+</head>
+
+<body>
+<p layout:fragment="header"></p>
+<section layout:fragment="content">
+<div class="col-md-7 col-md-offset-2">
+	<div class="login-panel panel panel-default">
+		<div class="panel-heading">
+			<h3 class="panel-title">
+				<i class="fa fa-user-o" aria-hidden="true" th:text="#{label.form.registration}">form</i>
+			</h3>
+		</div>
+		<div class="panel-body">
+            <div role="alert" th:if="${param.error}"
+                 th:class="'alert alert-danger'" th:utext="${statusError}">
+            </div>
+			<form th:action="@{/users/register}" th:object="${user}" method="POST" enctype="utf8" role="form" class='form-horizontal'>
+			
+			<fieldset>
+				<input type="hidden" th:name="${_csrf.parameterName}" th:value="${_csrf.token}" />
+				<div class="form-group" th:classappend="${#fields.hasErrors('firstname')} ? 'has-error'">
+      				<label class="col-md-4 control-label"  th:text="'Firstname: '" for="login">Username</label>
+        			<div class="col-md-8">
+        			<input class="form-control" th:field="*{firstname}" th:placeholder="'Enter your firstname'"
+        				autofocus="" pattern=".{1,}"/>
+        				<div th:if="${#fields.hasErrors('firstname')}">
+        					<label class="control-label" th:text="${#fields.errors('firstname')[0]}">error</label>
+    			    	</div>
+    			    </div>
+    			</div>
+    			<div class="form-group" th:classappend="${#fields.hasErrors('lastname')} ? 'has-error'">
+      				<label class="col-md-4 control-label"  th:text="'Lastname: '" for="login">Username</label>
+        			<div class="col-md-8">
+        			<input class="form-control" th:field="*{lastname}" th:placeholder="'Enter your lastname'"
+        				autofocus="" pattern=".{1,}"/>
+        				<div th:if="${#fields.hasErrors('lastname')}">
+        					<label class="control-label" th:text="${#fields.errors('lastname')[0]}">error</label>
+    			    	</div>
+    			    </div>
+    			</div>
+				<div class="form-group" th:classappend="${#fields.hasErrors('login')} ? 'has-error'">
+      				<label class="col-md-4 control-label"  th:text="#{label.user.login}" for="login">Username</label>
+        			<div class="col-md-8">
+        			<input class="form-control" th:field="*{login}" th:placeholder="#{label.form.enterLogin}" 
+        				autofocus="" pattern=".{1,}"/>
+        				<div th:if="${#fields.hasErrors('login')}">
+        					<label class="control-label" th:text="${#fields.errors('login')[0]}">error</label>
+    			    	</div>
+    			    </div>
+    			</div>
+    			<div class="form-group" th:classappend="${#fields.hasErrors('email')} ? 'has-error'">
+        			<label class="col-md-4 control-label" th:text="#{label.user.email}" for="email">email</label>
+        			<div class="col-md-8">
+        				<input type="text" th:field="*{email}" class="form-control" th:placeholder="#{label.form.enterEmail}"/>
+        				<div th:if="${#fields.hasErrors('email')}">
+        					<label class="control-label" th:text="${#fields.errors('email')[0]}">error</label>
+    			    	</div>
+        			</div>
+    			</div>
+    			<div class="form-group" th:classappend="${#fields.hasErrors('password')} ? 'has-error'">
+        			<label class="col-md-4 control-label" th:text="#{label.user.password}" for="password">password</label>
+        			<div class="col-md-8">
+        				<input type="password" th:field="*{password}" class="form-control" th:placeholder="#{label.form.enterPassword}"/>
+        				<div th:if="${#fields.hasErrors('password')}">
+        					<label class="control-label" th:text="${#fields.errors('password')[0]}">error</label>
+    			    	</div>
+        			</div>
+    			</div>
+    			<div class="form-group" th:classappend="${#fields.hasGlobalErrors()} ? 'has-error'">
+        			<label class="col-md-4 control-label" th:text="#{label.user.confirmPass}" for="confirmPassword">confirm</label>
+        			<div class="col-md-8">
+        				<input type="password" th:field="*{confirmPassword}" class="form-control" th:placeholder="#{label.form.enterConfirmPassword}"/>
+        			    <label class="control-label" th:each="err : ${#fields.globalErrors()}" th:text="${err}">error</label>
+        			</div>
+    			</div>
+    			<button type="submit" class="btn btn-success btn-long" th:text="#{label.form.register}">Register</button>
+    			</fieldset>
+		</form>
+		</div>
+	</div>
+</div>
+ </section>
+</body>
+</html>

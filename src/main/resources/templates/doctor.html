@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      xmlns:sec="http://www.w3.org/1999/xhtml" layout:decorator="layout">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="_csrf" th:content="${_csrf.token}"/>
+    <!-- default header name is X-CSRF-TOKEN -->
+    <meta name="_csrf_header" th:content="${_csrf.headerName}"/>
+    <title th:text="Doctor">Title</title>
+</head>
+
+<body>
+<h1 layout:fragment="header">Doctor</h1>
+<section layout:fragment="content">
+    <div class="table-responsive">
+
+        <div class="col-md-4">
+            <img th:if="${doctor.photo == null}" src="/images/default.jpg" class="img-thumbnail center-block"/>
+            <div th:if="${doctor.photo != null}" class="img-holder">
+                <img th:src="@{${'/images/doctors/' + doctor.photo}}" class="img-thumbnail center-block"/>
+                <a th:if="${#authorization.expression('hasRole(''ROLE_ADMIN'')')}"
+                   class="btn btn-link delete-photo">
+                    <i class="fa fa-times remove" aria-hidden="true"></i>
+                </a>
+                <input type="hidden" class="form-control" name="id_doc" id="id_doc" th:value="${doctor.id_doc}"/>
+            </div>
+
+            <th:block
+                    th:if="${#authorization.expression('hasRole(''ROLE_ADMIN'')')}">
+                <div class="col-md-10 col-md-offset-1">
+                    <!--
+                    <button
+                            data-toggle="modal" data-target="#reset-pass" class="btn btn-danger btn-block">Reset password
+                    </button>
+                    -->
+                    <a class="btn btn-warning btn-block" th:href="@{'/updateDoctor/' + ${doctor.id_doc}}">Update</a>
+                <button
+                        data-toggle="modal" data-target="#update-photo" class="btn btn-default btn-block">Upload
+                    photo
+                </button>
+                    <a class="btn btn-primary btn-block" th:href="@{'/doctors'}">Back to list</a>
+                </div>
+            </th:block>
+
+        </div>
+
+
+        <div class="col-md-8">
+            <h2 th:text="${doctor.name} + ' ' + ${doctor.secondName}">name</h2>
+
+            <table class="table table-condensed">
+                <tbody>
+                <tr th:if="${doctor.patronimic != null}">
+                    <td class="col-md-2" th:text="'Patronymic: '">Patronymic</td>
+                    <td th:text="${doctor.patronimic}">Patronymic</td>
+                </tr>
+
+                <tr th:if="${doctor.timeFrom != null}">
+                    <td class="col-md-2" th:text="'Time from: '">Time from</td>
+                    <td th:text="${doctor.timeFrom}">time from</td>
+                </tr>
+
+                <tr th:if="${doctor.timeTo != null}">
+                    <td class="col-md-2" th:text="'Time to: '">Time to</td>
+                    <td th:text="${doctor.timeTo}">Time to</td>
+                </tr>
+
+                <tr th:if="${doctor.University != null}">
+                    <td class="col-md-2" th:text="'University: '">University</td>
+                    <td th:text="${doctor.University}">University</td>
+                </tr>
+
+                <tr th:if="${speciality.name != null}">
+                    <td class="col-md-2" th:text="'Speciality name: '">Speciality name</td>
+                    <td th:text="${speciality.name}">Speciality name</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="update-photo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Photo</h4>
+                </div>
+                <div class="modal-body">
+
+                    <form th:action="@{/doctor/updatePhoto/{id_doc}(id_doc = ${doctor.id_doc})}" method="post"
+                          enctype="multipart/form-data">
+                        <div class="fileform">
+                            <div id="fileformlabel"></div>
+                            <input type="file" name="photo" id="photo" accept="image/*"
+                                   onchange="getName(this.value);"/>
+                            <div class="selectbutton">Select</div>
+                        </div>
+                        <br></br>
+                        <button type="submit" class="btn btn-success">Update</button>
+                        <button class="btn btn-default" data-dismiss="modal" aria-label="Close">Cancel</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var token = $("meta[name='_csrf']").attr("content");
+        var header = $("meta[name='_csrf_header']").attr("content");
+        $(document).ajaxSend(function (e, xhr, options) {
+            xhr.setRequestHeader(header, token);
+        });
+        $(".delete-photo").on('click', function () {
+            var button = $(this);
+            var id_doc = $('#id_doc').val();
+            $.ajax({
+                url: "/doctor/" + id_doc + "/deletePhoto",
+                type: "POST",
+                success: function (res) {
+                    console.log(res);
+                    location.reload();
+                }
+            });
+        });
+        </script>
+</section>
+</body>
+</html>

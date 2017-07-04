@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorator="layout">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Add user</title>
+</head>
+
+<body>
+<h1 layout:fragment="header">Here is a create user form. Please fill in the required information.</h1>
+<section layout:fragment="content">
+
+    <form method="post" th:object="${name}">
+    <input type="hidden" th:name="${_csrf.parameterName}" th:value="${_csrf.token}" />
+        <div><label for="name">Name</label></div>
+        <input id="name" type="text" name="name"/>
+
+        <div><label for="last_name">Last name</label></div>
+        <input id="last_name" type="text" name="last_name"/>
+
+        <div><label for="age">Age</label></div>
+        <input id="age" type="text" name="age"/>
+
+        <div><label for="short_info">Short info</label></div>
+        <input id="short_info" type="text" name="short_info"/>
+
+        <div><label for="email">email</label></div>
+        <input id="email" type="text" name="email"/>
+
+        <div><label for="login">login</label></div>
+        <input id="login" type="text" name="login"/>
+
+        <div><label for="password">password</label></div>
+        <input id="password" type="text" name="password"/>
+
+        <div>
+            <label for="gender">Gender</label>
+            <select id="gender" name="gender">
+                <option th:value="0">male</option>
+                <option th:value="1">female</option>
+            </select>
+        </div>
+
+        <div><input type="submit" value="add"/>Send</div>
+    </form>
+</section>
+</body>
+
+</html>

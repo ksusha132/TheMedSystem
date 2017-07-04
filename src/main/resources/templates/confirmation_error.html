@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" layout:decorator="layout">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Confirmation error</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/login.css}" /> 
+</head>
+
+<body>
+<p layout:fragment="header"></p>
+<section layout:fragment="content">
+<div class="col-md-5 col-md-offset-3">
+	<div class="login-panel panel panel-default">
+		<div class="panel-heading">
+			<h3 class="panel-title">
+				<i class="fa fa-user-o" aria-hidden="true" th:text="#{label.form.confirmationError}">Confirmation Error</i>
+			</h3>
+		</div>
+		<div class="panel-body">
+			<div role="alert" th:class="'alert alert-danger'" th:text="${statusMessage}"></div>
+			<div th:if="${expired == true}">
+			<br/>
+			<a class="btn btn-success btn-block" th:text="#{label.form.resendToken}" 
+			th:href="@{/users/resendToken(token=${token})}">resend</a>
+			</div>
+		</div>
+		<div class="panel-footer">
+			<div class="row">
+				<p class="register col-md-10 col-md-offset-2" th:utext="#{label.form.newToTurbo}"></p>
+			</div>
+		</div>
+	</div>
+</div>
+</section>
+</body>
+</html>

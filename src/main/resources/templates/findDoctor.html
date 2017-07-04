@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      xmlns:sec="http://www.w3.org/1999/xhtml" layout:decorator="layout">
+<head>
+    <meta charset="UTF-8"/>
+    <title th:text="Doctor">Title</title>
+</head>
+
+<body>
+<h1 layout:fragment="header">Find a doctor</h1>
+<section layout:fragment="content">
+    <form th:action="@{/searchDoctorById}" method="post">
+        <input type="hidden" th:name="${_csrf.parameterName}" th:value="${_csrf.token}"/>
+        <h3>Here you can find a doctor by his id</h3>
+        <div><label for="id_doc">Find doctor by id</label></div>
+        <input class="form-control" id="id_doc" type="text" name="id_doc"/>
+
+        <div><input class="btn btn-primary" type="submit" value="search"/></div>
+    </form>
+
+    <form th:action="@{/searchDoctorBySecName}" method="post">
+        <input type="hidden" th:name="${_csrf.parameterName}" th:value="${_csrf.token}"/>
+        <h3>Here you can find a doctor by his second name</h3>
+        <div><label for="secondName">Find doctor by second name</label></div>
+        <input class="form-control" id="secondName" type="text" name="secondName"/>
+
+        <div><input class="btn btn-primary" type="submit" value="search"/></div>
+    </form>
+
+    <form th:action="@{/searchDoctorByIdSpec}" method="post">
+        <input type="hidden" th:name="${_csrf.parameterName}" th:value="${_csrf.token}"/>
+        <h3>Here you can find a doctors by sprciality</h3>
+        <div><label for="id_spec">Find doctor by speciality</label></div>
+        <select class="form-control" id="id_spec" name="id_spec">
+            <option th:each="speciality : ${specialities}" th:value="${speciality.id_spec}"
+                    th:text="${speciality.name}">
+            </option>
+        </select>
+        <div><input class="btn btn-primary" type="submit" value="search"/></div>
+    </form>
+
+
+    <div>
+
+
+    </div>
+</section>
+</body>
+</html>

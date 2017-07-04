@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/web/thymeleaf/layout"
+      xmlns:sec="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Layout</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/layout.css}"/>
+    <link rel="stylesheet"
+          href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+
+    <style>
+        body {
+            padding-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="/">The medical system</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li sec:authorize="hasRole('ROLE_ADMIN')"><a href="/admin/all">Admin info</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li sec:authorize="isAuthenticated()"><a href="/users/me">My page</a></li>
+                <!--  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Language
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="?lang=en">English</a></li>
+                        <li><a href="?lang=ru">Russian</a></li>
+                    </ul>
+                </li>
+                -->
+                <li sec:authorize="isAnonymous()">
+                    <a th:href="@{/login}">Log in</a>
+                </li>
+                <li sec:authorize="isAuthenticated()">
+                    <form th:action="@{/logout}" method="POST" name="form">
+                        <button type="submit" class="btn btn-success btn-logout">Logout</button>
+                    </form>
+                </li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div>
+</nav>
+
+<div class="container">
+    <h1 layout:fragment="header">This is a layout header</h1>
+
+    <div layout:fragment="content">A placeholder for real content.</div>
+</div>
+</body>
+</html>

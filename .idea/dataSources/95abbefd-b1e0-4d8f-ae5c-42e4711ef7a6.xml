@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="TheProject@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.0">
+    <root id="1"/>
+    <schema id="2" parent="1" name="TheProject">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="blog"/>
+    <schema id="4" parent="1" name="db1"/>
+    <schema id="5" parent="1" name="dbchat"/>
+    <schema id="6" parent="1" name="dbksusha"/>
+    <schema id="7" parent="1" name="db_catalog"/>
+    <schema id="8" parent="1" name="English"/>
+    <schema id="9" parent="1" name="hello"/>
+    <schema id="10" parent="1" name="Homework"/>
+    <schema id="11" parent="1" name="hospital"/>
+    <schema id="12" parent="1" name="information_schema"/>
+    <schema id="13" parent="1" name="internet_shop"/>
+    <schema id="14" parent="1" name="lastbd"/>
+    <schema id="15" parent="1" name="miniblog"/>
+    <schema id="16" parent="1" name="mysql"/>
+    <schema id="17" parent="1" name="performance_schema"/>
+    <schema id="18" parent="1" name="registration_02"/>
+    <schema id="19" parent="1" name="thesystem"/>
+    <schema id="20" parent="1" name="Train"/>
+    <schema id="21" parent="1" name="train1"/>
+    <table id="22" parent="2" name="appointment"/>
+    <table id="23" parent="2" name="comment"/>
+    <table id="24" parent="2" name="contact_info"/>
+    <table id="25" parent="2" name="contact_type"/>
+    <table id="26" parent="2" name="doctor"/>
+    <table id="27" parent="2" name="role"/>
+    <table id="28" parent="2" name="speciality"/>
+    <table id="29" parent="2" name="token"/>
+    <table id="30" parent="2" name="user"/>
+    <table id="31" parent="2" name="verification_token"/>
+    <column id="32" parent="22" name="id_uppoint">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="33" parent="22" name="appointment_time">
+      <Position>2</Position>
+      <DataType>time|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="34" parent="22" name="id_doc">
+      <Position>3</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="35" parent="22" name="id_user">
+      <Position>4</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="36" parent="22" name="FK1j8sla3wx2mvx4uhgimsp9esg">
+      <ColNames>id_user</ColNames>
+    </index>
+    <index id="37" parent="22" name="FK78jgguh6meyeg9gpjs14188uw">
+      <ColNames>id_doc</ColNames>
+    </index>
+    <key id="38" parent="22" name="PRIMARY">
+      <ColNames>id_uppoint</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="39" parent="22" name="FK78jgguh6meyeg9gpjs14188uw">
+      <ColNames>id_doc</ColNames>
+      <RefSchemaName>theproject</RefSchemaName>
+      <RefTableName>doctor</RefTableName>
+      <RefColNames>id_doc</RefColNames>
+    </foreign-key>
+    <foreign-key id="40" parent="22" name="FK1j8sla3wx2mvx4uhgimsp9esg">
+      <ColNames>id_user</ColNames>
+      <RefSchemaName>theproject</RefSchemaName>
+      <RefTableName>user</RefTableName>
+      <RefColNames>id_user</RefColNames>
+      <OnDelete>delete</OnDelete>
+    </foreign-key>
+    <column id="41" parent="23" name="id_comment">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="42" parent="23" name="comment_body">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="43" parent="23" name="comment_title">
+      <Position>3</Position>
+      <DataType>varchar(40)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="44" parent="23" name="date">
+      <Position>4</Position>
+      <DataType>datetime|0</DataType>
+    </column>
+    <column id="45" parent="23" name="id_user">
+      <Position>5</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="46" parent="23" name="FK3xl9c4qhiqfaqybv4pb94tevv">
+      <ColNames>id_user</ColNames>
+    </index>
+    <key id="47" parent="23" name="PRIMARY">
+      <ColNames>id_comment</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="48" parent="23" name="FK3xl9c4qhiqfaqybv4pb94tevv">
+      <ColNames>id_user</ColNames>
+      <RefSchemaName>theproject</RefSchemaName>
+      <RefTableName>user</RefTableName>
+      <RefColNames>id_user</RefColNames>
+      <OnDelete>delete</OnDelete>
+    </foreign-key>
+    <column id="49" parent="24" name="id_contact_info">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="50" parent="24" name="value">
+      <Position>2</Position>
+      <DataType>varchar(30)|0</DataType>
+    </column>
+    <column id="51" parent="24" name="id_contact_type">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="52" parent="24" name="id_user">
+      <Position>4</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="53" parent="24" name="FK5xjsjnm2xq467tapau2pwcbc4">
+      <ColNames>id_contact_type</ColNames>
+    </index>
+    <index id="54" parent="24" name="FK9atwkumk3d5k4ewatk4uob116">
+      <ColNames>id_user</ColNames>
+    </index>
+    <index id="55" parent="24" name="UK_syjxlttrb98mv4kahexcf7j3y">
+      <ColNames>value</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="56" parent="24" name="PRIMARY">
+      <ColNames>id_contact_info</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="57" parent="24" name="UK_syjxlttrb98mv4kahexcf7j3y">
+      <ColNames>value</ColNames>
+      <UnderlyingIndexName>UK_syjxlttrb98mv4kahexcf7j3y</UnderlyingIndexName>
+    </key>
+    <foreign-key id="58" parent="24" name="FK5xjsjnm2xq467tapau2pwcbc4">
+      <ColNames>id_contact_type</ColNames>
+      <RefSchemaName>theproject</RefSchemaName>
+      <RefTableName>contact_type</RefTableName>
+      <RefColNames>id_contact_type</RefColNames>
+    </foreign-key>
+    <foreign-key id="59" parent="24" name="FK9atwkumk3d5k4ewatk4uob116">
+      <ColNames>id_user</ColNames>
+      <RefSchemaName>theproject</RefSchemaName>
+      <RefTableName>user</RefTableName>
+      <RefColNames>id_user</RefColNames>
+      <OnDelete>delete</OnDelete>
+    </foreign-key>
+    <column id="60" parent="25" name="id_contact_type">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="61" parent="25" name="type">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <key id="62" parent="25" name="PRIMARY">
+      <ColNames>id_contact_type</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="63" parent="26" name="id_doc">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="64" parent="26" name="name">
+      <Position>2</Position>
+      <DataType>varchar(60)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="65" parent="26" name="patronimic">
+      <Position>3</Position>
+      <DataType>varchar(60)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="66" parent="26" name="second_name">
+      <Position>4</Position>
+      <DataType>varchar(60)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="67" parent="26" name="time_from">
+      <Position>5</Position>
+      <DataType>time|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="68" parent="26" name="time_to">
+      <Position>6</Position>
+      <DataType>time|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="69" parent="26" name="university">
+      <Position>7</Position>
+      <DataType>varchar(60)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="70" parent="26" name="id_spec">
+      <Position>8</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="71" parent="26" name="FKbuwsi30pe3uiydsowhtcx4nqs">
+      <ColNames>id_spec</ColNames>
+    </index>
+    <key id="72" parent="26" name="PRIMARY">
+      <ColNames>id_doc</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="73" parent="26" name="FKbuwsi30pe3uiydsowhtcx4nqs">
+      <ColNames>id_spec</ColNames>
+      <RefSchemaName>theproject</RefSchemaName>
+      <RefTableName>speciality</RefTableName>
+      <RefColNames>id_spec</RefColNames>
+      <OnDelete>delete</OnDelete>
+    </foreign-key>
+    <column id="74" parent="27" name="id_role">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="75" parent="27" name="name">
+      <Position>2</Position>
+      <DataType>varchar(15)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="76" parent="27" name="PRIMARY">
+      <ColNames>id_role</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="77" parent="28" name="id_spec">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="78" parent="28" name="name">
+      <Position>2</Position>
+      <DataType>varchar(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="79" parent="28" name="PRIMARY">
+      <ColNames>id_spec</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="80" parent="29" name="series">
+      <Position>1</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="81" parent="29" name="date">
+      <Position>2</Position>
+      <DataType>datetime|0</DataType>
+    </column>
+    <column id="82" parent="29" name="ip_address">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="83" parent="29" name="user_agent">
+      <Position>4</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="84" parent="29" name="user_login">
+      <Position>5</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="85" parent="29" name="value">
+      <Position>6</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <key id="86" parent="29" name="PRIMARY">
+      <ColNames>series</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="87" parent="30" name="id_user">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="88" parent="30" name="age">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="89" parent="30" name="email">
+      <Position>4</Position>
+      <DataType>varchar(40)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="90" parent="30" name="enabled">
+      <Position>5</Position>
+      <DataType>bit(1)|0</DataType>
+    </column>
+    <column id="91" parent="30" name="name">
+      <Position>6</Position>
+      <DataType>varchar(25)|0</DataType>
+    </column>
+    <column id="92" parent="30" name="gender">
+      <Position>7</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="93" parent="30" name="last_name">
+      <Position>8</Position>
+      <DataType>varchar(25)|0</DataType>
+    </column>
+    <column id="94" parent="30" name="login">
+      <Position>9</Position>
+      <DataType>varchar(25)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="95" parent="30" name="password">
+      <Position>10</Position>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="96" parent="30" name="photo">
+      <Position>13</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="97" parent="30" name="id_role">
+      <Position>15</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="98" parent="30" name="address">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="99" parent="30" name="patronymic">
+      <Position>11</Position>
+      <DataType>varchar(25)|0</DataType>
+    </column>
+    <column id="100" parent="30" name="phone_num">
+      <Position>12</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="101" parent="30" name="police_num">
+      <Position>14</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <index id="102" parent="30" name="FK6njoh3pti5jnlkowken3r8ttn">
+      <ColNames>id_role</ColNames>
+    </index>
+    <index id="103" parent="30" name="UK_ew1hvam8uwaknuaellwhqchhb">
+      <ColNames>login</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="104" parent="30" name="UK_ob8kqyqqgmefl0aco34akdtpe">
+      <ColNames>email</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="105" parent="30" name="PRIMARY">
+      <ColNames>id_user</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="106" parent="30" name="UK_ob8kqyqqgmefl0aco34akdtpe">
+      <ColNames>email</ColNames>
+      <UnderlyingIndexName>UK_ob8kqyqqgmefl0aco34akdtpe</UnderlyingIndexName>
+    </key>
+    <key id="107" parent="30" name="UK_ew1hvam8uwaknuaellwhqchhb">
+      <ColNames>login</ColNames>
+      <UnderlyingIndexName>UK_ew1hvam8uwaknuaellwhqchhb</UnderlyingIndexName>
+    </key>
+    <foreign-key id="108" parent="30" name="FK6njoh3pti5jnlkowken3r8ttn">
+      <ColNames>id_role</ColNames>
+      <RefSchemaName>theproject</RefSchemaName>
+      <RefTableName>role</RefTableName>
+      <RefColNames>id_role</RefColNames>
+      <OnDelete>delete</OnDelete>
+    </foreign-key>
+    <column id="109" parent="31" name="id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="110" parent="31" name="expiry_date">
+      <Position>2</Position>
+      <DataType>datetime|0</DataType>
+    </column>
+    <column id="111" parent="31" name="token">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="112" parent="31" name="user_id">
+      <Position>4</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="113" parent="31" name="FK_VERIFY_USER">
+      <ColNames>user_id</ColNames>
+    </index>
+    <key id="114" parent="31" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="115" parent="31" name="FK_VERIFY_USER">
+      <ColNames>user_id</ColNames>
+      <RefSchemaName>theproject</RefSchemaName>
+      <RefTableName>user</RefTableName>
+      <RefColNames>id_user</RefColNames>
+      <OnDelete>delete</OnDelete>
+    </foreign-key>
+  </database-model>
+</dataSource>

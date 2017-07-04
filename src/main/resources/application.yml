@@ -1,0 +1,52 @@
+spring:
+  http.multipart:
+    max-file-size: 10MB
+    max-request-size: 10MB
+  jpa:
+    hibernate:
+      ddl-auto: create
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    properties:
+      hibernate:
+        current_session_context_class: org.springframework.orm.hibernate4.SpringSessionContext
+    show-sql: true
+  datasource: 
+    url: jdbc:mysql://localhost:3306/TheProject
+    username: root
+    password: root
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: theturboenglish@gmail.com
+    password: rationalenglish
+    protocol: smtp
+    tls: true
+    from: theturboenglish@gmail.com
+    properties.mail.smtp:
+      auth: true
+      starttls.enable: true
+      timeout: 8500
+      ssl.trust: smtp.gmail.com
+facebook:
+    client:
+      clientId: 221980194950067
+      clientSecret: 39483d768ff0a21d03071c32cd32aa4e
+      accessTokenUri: https://graph.facebook.com/oauth/access_token
+      userAuthorizationUri: https://www.facebook.com/dialog/oauth
+      tokenName: oauth_token
+      authenticationScheme: query
+      clientAuthenticationScheme: form
+    resource:
+      userInfoUri: https://graph.facebook.com/me?fields=name,email
+
+vk:
+    client:
+      clientId: 5969964
+      clientSecret: 25H3t6Wpu0GGnf83u309
+      accessTokenUri: https://oauth.vk.com/access_token
+      userAuthorizationUri: https://oauth.vk.com/authorize
+      tokenName: code
+      authenticationScheme: query
+      clientAuthenticationScheme: form
+    resource:
+      userInfoUri: https://api.vk.com/method/users.get

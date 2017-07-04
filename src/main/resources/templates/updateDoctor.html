@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorator="layout">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Add user</title>
+</head>
+
+<body>
+<h1 layout:fragment="header">Update doctor</h1>
+<section layout:fragment="content">
+
+    <form method="post" th:object="${doctor}">
+        <input type="hidden" th:name="${_csrf.parameterName}" th:value="${_csrf.token}" />
+
+        <div><label for="name">Name</label></div>
+        <input class="form-control" id="name" type="text" th:value="${doctor.name}" th:field="*{name}"/>
+
+        <div><label for="second_name">Last name</label></div>
+        <input class="form-control" id="second_name" type="text" th:value="${doctor.secondName}" th:field="*{secondName}"/>
+
+        <div><label for="patronimic">Patronymic</label></div>
+        <input class="form-control" id="patronimic" type="text" th:value="${doctor.patronimic}" th:field="*{patronimic}"/>
+
+        <div><label for="university">University</label></div>
+        <input class="form-control" id="university" type="text" th:value="${doctor.university}" th:field="*{university}"/>
+
+        <div><label for="time_from">Time from</label></div>
+        <input class="form-control" id="time_from" type="text" th:value="${doctor.timeFrom}" name="timeFrom"/>
+
+        <div><label for="time_to">Time to</label></div>
+        <input class="form-control" id="time_to" type="text" th:value="${doctor.timeTo}" name="timeTo"/>
+
+        <div><label for="specialities">Speciality</label></div>
+        <select class="form-control" id="specialities" th:field="*{speciality}">
+            <option th:each="spec : ${specialities}" th:value="${spec.id_spec}"
+                    th:text="${spec.name}">
+            </option>
+        </select>
+
+        <div><input class="btn btn-primary" type="submit" value="add"/></div>
+    </form>
+</section>
+</body>
+
+</html>

@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorator="layout">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="_csrf" th:content="${_csrf.token}"/>
+    <!-- default header name is X-CSRF-TOKEN -->
+    <meta name="_csrf_header" th:content="${_csrf.headerName}"/>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/user.css}"/>
+    <title>User</title>
+</head>
+
+<body>
+<h1 layout:fragment="header"></h1>
+<section layout:fragment="content">
+    <div class="container">
+        <div class="col-md-4">
+            <img th:if="${user.photo == null}" src="/images/default.jpg" class="img-thumbnail center-block"/>
+            <div th:if="${user.photo != null}" class="img-holder">
+                <img th:src="@{${'/images/users/' + user.photo}}" class="img-thumbnail center-block"/>
+                <a th:if="${#authentication.name == user.login or #authorization.expression('hasRole(''ROLE_ADMIN'')')}"
+                   class="btn btn-link delete-photo">
+                    <i class="fa fa-times remove" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-md-8">
+            <h2 th:text="${user.name} + ' ' + ${user.lastName}">name</h2>
+            <table class="table table-condensed">
+                <tbody>
+                <tr>
+                    <td class="col-md-2" th:text="'Username: '">Username</td>
+                    <td th:text="${user.login}">Username</td>
+                    <td>
+                        <a th:if="${#authentication.name == user.login or #authorization.expression('hasRole(''ROLE_ADMIN'')')}"
+                           data-toggle="modal" data-target="#update-login" class="btn btn-link">
+                            <i class="fa fa-pencil add" aria-hidden="true"></i>
+                        </a></td>
+                </tr>
+                <tr>
+                    <td class="col-md-2" th:text="'Email: '">email</td>
+                    <td class="col-md-9" th:text="${user.email}">Email</td>
+                    <!--
+                    <td> <a th:if="${#authentication.name == user.login or #authorization.expression('hasRole(''ROLE_ADMIN'')')}"
+                    data-toggle="modal" data-target="#update-email" class="btn btn-link">
+                    <i class="fa fa-pencil add" aria-hidden="true"></i>
+                    </a></td>
+                    -->
+                </tr>
+
+                <tr th:if="${user.name != null}">
+                    <td class="col-md-2" th:text="'Name: '">name</td>
+                    <td th:text="${user.name}">Name</td>
+                </tr>
+
+                <tr th:if="${user.age != null}">
+                    <td class="col-md-2" th:text="'Age: '">age</td>
+                    <td th:text="${user.age}">Age</td>
+                </tr>
+
+                <tr th:if="${user.patronymic != null}">
+                    <td class="col-md-2" th:text="'Patronymic: '">patronymic</td>
+                    <td th:text="${user.patronymic}">patronymic</td>
+                </tr>
+
+                <tr th:if="${user.address != null}">
+                    <td class="col-md-2" th:text="'Address: '">Address</td>
+                    <td th:text="${user.address}">Address</td>
+                </tr>
+
+                <tr th:if="${user.phoneNum != null}">
+                    <td class="col-md-2" th:text="'Phone number: '">Phone number</td>
+                    <td th:text="${user.phoneNum}">Phone number</td>
+                </tr>
+
+                <tr th:if="${user.policeNum != null}">
+                    <td class="col-md-2" th:text="'Police number: '">Police number</td>
+                    <td th:text="${user.policeNum}">Police number</td>
+                </tr>
+
+                <tr th:if="${user.gender != null}">
+                    <td class="col-md-2" th:text="'Sex: '">sex</td>
+                    <td th:text="${user.gender == 1 ? 'male' : 'female'}">sex</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="container">
+        <div class="col-md-4">
+            <div class="col-md-10 col-md-offset-1">
+                <th:block th:if="${#authorization.expression('hasRole(''ROLE_ADMIN'')')}">
+                    <a href="/admin/all" class="btn btn-default btn-block">Show all users</a>
+                </th:block>
+
+                <th:block th:if="${#authorization.expression('hasRole(''ROLE_USER'')')}">
+                    <a href="/users/speaking" class="btn btn-default btn-block">Show users</a>
+                </th:block>
+
+                <th:block
+                        th:if="${#authentication.name == user.login or #authorization.expression('hasRole(''ROLE_ADMIN'')')}">
+                    <button th:attr="data-id_user=${user.id},data-name=${user.name},data-last_name=${user.lastName},data-age=${user.age},
+    	            data-gender=${user.gender},data-id_role=${user.roleId},data-email=${user.email},data-login=${user.login},
+    	            data-password=${user.password},data-patronymic=${user.patronymic},data-address=${user.address},
+                    data-phone_num=${user.phoneNum},data-police_num=${user.policeNum}"
+                            data-toggle="modal" data-target="#update_user" class="btn btn-default btn-block">Change
+                        personal data
+                    </button>
+                    <button
+                            data-toggle="modal" data-target="#update-photo" class="btn btn-default btn-block">Upload
+                        photo
+                    </button>
+                    <!--
+                    <button
+                            data-toggle="modal" data-target="#reset-pass" class="btn btn-danger btn-block">Reset password
+                    </button>
+                    -->
+                </th:block>
+            </div>
+        </div>
+        <div class="col-md-8">
+            <table class="table table-condensed">
+                <thead>
+                <tr>
+                    <th class="col-md-3 contact-info">
+                        <a th:if="${#authentication.name == user.login or #authorization.expression('hasRole(''ROLE_ADMIN'')')}"
+                           data-toggle="modal" data-target="#add_contact_info" class="btn btn-link">
+                            <i class="fa fa-plus-square add" aria-hidden="true"></i>
+                        </a>Contact info:
+                    </th>
+                </tr>
+                </thead>
+                <tr th:each="contact : ${user.contactInfoList}">
+                    <td class="col-md-2" th:text="${contact.contactTypeName}">Contact</td>
+                    <td class="col-md-8" th:text="${contact.value}">Value</td>
+                    <td th:if="${#authentication.name == user.login or #authorization.expression('hasRole(''ROLE_ADMIN'')')}">
+                        <a th:attr="data-id_contact_info=${contact.id_contactInfo}"
+                           class="btn btn-link delete_contact_info">
+                            <i class="fa fa-times remove" aria-hidden="true"></i>
+                        </a>
+                    </td>
+                </tr>
+            </table>
+            <div th:each="error : ${errors}">
+                <div role="alert" th:class="'alert alert-danger alert-dismissible'">
+                    <button type="button" class="close" data-dismiss="alert">&times;</button>
+                    <span th:utext="${error}"></span>
+                </div>
+            </div>
+            <div th:each="msg : ${messages}">
+                <div role="alert" th:class="'alert alert-success alert-dismissible'">
+                    <button type="button" class="close" data-dismiss="alert">&times;</button>
+                    <span th:utext="${msg}"></span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="update-login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Username update</h4>
+                </div>
+                <div class="modal-body">
+
+                    <form th:action="@{/users/{id}/updateLogin(id = ${user.id})}" method="post">
+                        <input type="hidden" name="old-login" th:value="${user.login}"/>
+                        <div class="form-group">
+                            <div class="form-group">
+                                <input type="text" class="form-control" th:placeholder="#{label.form.enterLogin}"
+                                       name="new-login" autofocus="autofocus"/>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn btn-success">Update</button>
+                        <button class="btn btn-default" data-dismiss="modal" aria-label="Close">Cancel</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="update-email" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Email update</h4>
+                </div>
+                <div class="modal-body">
+                    <form th:action="@{/users/{id}/updateEmail(id = ${user.id})}" method="post">
+                        <input type="hidden" name="old-login" th:value="${user.login}"/>
+                        <div class="form-group">
+                            <div class="form-group">
+                                <input type="text" class="form-control" th:placeholder="#{label.form.enterLogin}"
+                                       name="new-login" autofocus="autofocus"/>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn btn-success">Update</button>
+                        <button class="btn btn-default" data-dismiss="modal" aria-label="Close">Cancel</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="update-photo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Photo</h4>
+                </div>
+                <div class="modal-body">
+
+                    <form th:action="@{/users/{id}/updatePhoto(id = ${user.id})}" method="post"
+                          enctype="multipart/form-data">
+                        <div class="fileform">
+                            <div id="fileformlabel"></div>
+                            <input type="file" name="photo" id="photo" accept="image/*"
+                                   onchange="getName(this.value);"/>
+                            <div class="selectbutton">Select</div>
+                        </div>
+                        <br></br>
+                        <button type="submit" class="btn btn-success">Update</button>
+                        <button class="btn btn-default" data-dismiss="modal" aria-label="Close">Cancel</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="update_user" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Settings</h4>
+                </div>
+                <div class="modal-body">
+                    <form th:action="@{/users/update_user/{id}(id = ${user.id})}" method="post">
+
+                        <div class="form-group">
+                            <label for="name">First name</label>
+                            <input type="text" maxlength="25" class="form-control" name="name" id="name"/>
+                        </div>
+                        <div class="form-group">
+                            <label for="last_name">Last name</label>
+                            <input type="text" maxlength="25" class="form-control" name="last_name" id="last_name"/>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="patronymic">Patronymic</label>
+                            <input type="text" maxlength="30" class="form-control" name="patronymic" id="patronymic"/>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="age">Age</label>
+                            <input type="number" min="1" max="150" class="form-control" name="age" id="age"/>
+                        </div>
+                        <div class="form-group">
+                            <label>Gender</label>
+                            <select id="gender" name="gender" class="form-control">
+                                <option value="1">male</option>
+                                <option value="2">female</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="address">Address</label>
+                            <input type="text" maxlength="25" class="form-control" name="address" id="address"/>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone_num">Phone number</label>
+                            <input type="text" maxlength="12" class="form-control" name="phone_num" id="phone_num"/>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="police_num">Police number</label>
+                            <input type="text" maxlength="20" class="form-control" name="police_num" id="police_num"/>
+                        </div>
+
+                        <th:block sec:authorize="hasRole('ROLE_ADMIN')">
+                            <div class="form-group">
+                                <label>Role</label>
+                                <select id="id_role" name="id_role" th:value="${user.roleId}" class="form-control">
+                                    <option value="2">user</option>
+                                    <option value="1">admin</option>
+                                </select>
+                            </div>
+                        </th:block>
+
+                        <input type="hidden" class="form-control" name="id_user" id="id_user" th:value="${user.id}"/>
+                        <button type="submit" class="btn btn-primary">Save changes</button>
+                        <button type="button" class="btn btn-default" data-dismiss="modal" aria-label="Close">Cancel
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="add_contact_info" tabindex="-1" role="dialog" aria-labelledby="add_contact_info_label">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="add_contact_info_label">Add contact info</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label>Contact type</label>
+                        <select id="id_contact_type" name="id_contact_type" class="form-control">
+                            <option th:each="contact_type : ${contact_types}" th:value="${contact_type.id_contactType}"
+                                    th:text="${contact_type.type}">
+                            </option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="value">Value</label>
+                        <input type="text" class="form-control" name="value" id="value"/>
+                    </div>
+
+                    <button id="save_contact_info" type="button" class="btn btn-primary">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function getName(str) {
+            if (str.lastIndexOf('\\')) {
+                var i = str.lastIndexOf('\\') + 1;
+            }
+            else {
+                var i = str.lastIndexOf('/') + 1;
+            }
+            var filename = str.slice(i);
+            var uploaded = document.getElementById("fileformlabel");
+            uploaded.innerHTML = filename;
+        }
+
+        var token = $("meta[name='_csrf']").attr("content");
+        var header = $("meta[name='_csrf_header']").attr("content");
+        $(document).ajaxSend(function (e, xhr, options) {
+            xhr.setRequestHeader(header, token);
+        });
+
+        $(document).on('show.bs.modal', '#update_user', function (event) {
+            var button = $(event.relatedTarget);// Button that triggered the modal
+            var name = button.data('name');
+            var last_name = button.data('last_name');
+            var age = button.data('age');
+            var gender = button.data('gender');
+            var id_role = button.data('id_role');
+            var patronymic = button.data('patronymic');
+            var address = button.data('address');
+            var phone_num = button.data('phone_num');
+            var police_num = button.data('police_num');
+
+            $('#gender').val(gender);
+            $('#id_role').val(id_role);
+            $('#name').val(name);
+            $('#last_name').val(last_name);
+            $('#age').val(age);
+            $('#patronymic').val(patronymic);
+            $('#address').val(address);
+            $('#phone_num').val(phone_num);
+            $('#police_num').val(police_num);
+
+        });
+
+        function updateUser(id_user, name, last_name, age, gender, id_role, patronymic, address, phone_num, police_num) {
+            var data = new FormData();
+            data.append('name', name);
+            data.append('id_user', id_user);
+            data.append('last_name', last_name);
+            data.append('age', age);
+            data.append('gender', gender);
+            data.append('id_role', id_role);
+            data.append('patronymic', patronymic);
+            data.append('address', address);
+            data.append('phone_num', phone_num);
+            data.append('police_num', police_num);
+
+
+            $.ajax({
+                url: "/users/update_user/" + id_user,
+                data: data,
+                type: "POST",
+                contentType: false,
+                processData: false,
+                success: function (res) {
+                    console.log(res);
+                    location.reload();
+                }
+            });
+        }
+        function add_contact_info(id_user, id_contact_type, value) {
+
+            $.ajax({
+                url: "/users/add_contact/" + id_user,
+                data: {
+                    id_user: id_user,
+                    id_contact_type: id_contact_type,
+                    value: value
+                },
+                type: "POST",
+                success: function (res) {
+                    console.log(res);
+                    location.reload();
+                }
+            });
+        }
+        $('#save_changes_user').on('click', function () {
+            updateUser($('#id_user').val(), $('#name').val(), $('#last_name').val(), $('#age').val(),
+                $('#gender').val(), $('#id_role').val(), $('#patronymic').val(), $('#address').val(), $('#phone_num').val(),
+                $('#police_num').val());
+        });
+        $('#save_contact_info').on('click', function () {
+            add_contact_info($('#id_user').val(), $('#id_contact_type').val(), $('#value').val());
+        });
+        $("[class*='delete_contact_info']").on('click', function () {
+            var button = $(this);
+            $.ajax({
+                url: "/users/delete_contact/" + button.data('id_contact_info'),
+                type: "POST",
+                success: function (res) {
+                    console.log(res);
+                    location.reload();
+                }
+            });
+        });
+        $(".delete-photo").on('click', function () {
+            var button = $(this);
+            var id = $('#id_user').val();
+            $.ajax({
+                url: "/users/" + id + "/deletePhoto",
+                type: "POST",
+                success: function (res) {
+                    console.log(res);
+                    location.reload();
+                }
+            });
+        });
+    </script>
+</section>
+</body>
+</html>

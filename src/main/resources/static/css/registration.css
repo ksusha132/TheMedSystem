@@ -1,0 +1,18 @@
+.control-label {
+	padding-top: 6px;
+}
+.btn {
+	margin-top: 35px;
+}
+
+.btn-long {
+	width: 35%;
+}
+
+.error-msg {
+	color: #a94442;
+}
+
+.nav-right li a {
+  text-align: right;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml" layout:decorator="layout">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Doctors list</title>
+</head>
+<body>
+<h1 layout:fragment="header">All users</h1>
+<section layout:fragment="content">
+    <div class="table-responsive">
+        <table class="table">
+            <tr>
+                <th>Name</th>
+                <th>Second name</th>
+                <th>Patronimic</th>
+                <th>Speciality</th>
+                <th>Show</th>
+                <th>Delete</th>
+            </tr>
+            <tr th:each="d : ${doctors}">
+                <td th:text="${d.name}"></td>
+                <td th:text="${d.secondName}"></td>
+                <td th:text="${d.patronimic}"></td>
+                <td th:text="${d.patronimic}"></td>
+                <td><a class="btn btn-primary" th:href="@{'/doctor/' + ${d.id_doc}}">Show</a></td>
+                <td><a class="btn btn-danger" th:href="@{'/doctorDEL/' + ${d.id_doc}}">Delete</a></td>
+            </tr>
+        </table>
+    </div>
+</section>
+</body>
+</html>

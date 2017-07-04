@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorator="layout">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="_csrf" th:content="${_csrf.token}"/>
+	<!-- default header name is X-CSRF-TOKEN -->
+	<meta name="_csrf_header" th:content="${_csrf.headerName}"/>
+    <title>All users</title>
+</head>
+<body>
+<h1 layout:fragment="header">All users</h1>
+<section layout:fragment="content">
+    <div class="table-responsive">
+        <table class="table">
+            <tr>
+                <th>Lastname</th>
+                <th>Firstname</th>
+                <th>Show</th>
+                <th>Delete</th>
+            </tr>
+            <tr th:each="p : ${users}">
+                <td th:text="${p.lastName}"></td>
+                <td th:text="${p.name}"></td>
+                <td><a class="btn btn-primary" th:href="@{'/admin/user/' + ${p.id}}">Show</a></td>
+                <td><a class="btn btn-danger delete_user" th:attr="data-id_user=${p.id}">Delete</a></td>
+            </tr>
+        </table>
+    </div>
+    <script>
+    var token = $("meta[name='_csrf']").attr("content");
+	var header = $("meta[name='_csrf_header']").attr("content");
+	$(document).ajaxSend(function(e, xhr, options) {
+		xhr.setRequestHeader(header, token);
+	});
+        $("[class*='delete_user']").on('click', function (){
+            var id_user = $(this).data('id_user');
+            $.ajax({
+                url: "/admin/delete_user/" + id_user,
+                type: "POST",
+                success: function (res) {
+                    console.log(res);
+                    location.reload();
+                }
+            });
+        });
+    </script>
+</section>
+</body>
+</html>
